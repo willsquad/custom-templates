@@ -1,0 +1,16 @@
+/**** Carousel ****/
+#carousel {
+  height: 800px;
+  background-image: url("carousel/files/images/banner_img1.jpg");
+  background-position: 50%;
+}
+@media (max-width: 767px) {
+  #carousel {
+    background-position: 75%;
+    height: 75vh;
+  }
+}
+
+/**** Carousel ****/
+
+/*# sourceMappingURL=carousel.css.map */

@@ -5,6 +5,7 @@
 body {
     background-color: #F7F7F7; //overflow-y: hidden;
     font-family: "open sans";
+    font-size: 16px;
 }
 
 input {
@@ -19,93 +20,16 @@ button {
     cursor: pointer;
 }
 
-/* ANIMATIONS  */
-.animated {
-    animation-duration: 1s;
-    animation-fill-mode: both;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', serif;
+    /* letter-spacing: .80px; */
+    margin: 0px;
+    padding: 0px;
+    font-weight: 700;
 }
 
-@keyframes slideInDown {
-    from {
-        transform: translate3d(0, -100%, 0);
-        visibility: visible;
-    }
-
-    to {
-        transform: translate3d(0, 0, 0);
-    }
+.max_width {
+    width: 100%;
+    max-width: $max_width;
+    margin: 0 auto;
 }
-
-.slideInDown {
-    animation-name: slideInDown;
-}
-
-@keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-    }
-  }
-  
-  .fadeIn {
-    animation-name: fadeIn;
-  }
-
-  @keyframes zoomIn {
-    from {
-      opacity: 0;
-      transform: scale3d(.3, .3, .3);
-    }
-  
-    50% {
-      opacity: 1;
-    }
-  }
-  
-  .zoomIn {
-    animation-name: zoomIn;
-  }
-
-  @keyframes slideInLeft {
-    from {
-      transform: translate3d(-100%, 0, 0);
-      visibility: visible;
-    }
-  
-    to {
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  .slideInLeft {
-    animation-name: slideInLeft;
-  }
-
-  @keyframes rotating {
-    from {
-        -ms-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    to {
-        -ms-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-.rotating {
-    -webkit-animation: rotating 2s linear infinite;
-    -moz-animation: rotating 2s linear infinite;
-    -ms-animation: rotating 2s linear infinite;
-    -o-animation: rotating 2s linear infinite;
-    animation: rotating 2s linear infinite;
-}
-/* ANIMATIONS  */

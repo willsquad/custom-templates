@@ -1,13 +1,7 @@
 /**** Header ****/
-#header {
-  position: absolute;
-  top: 0px;
-  z-index: 1000;
-}
-
 /* Top Bar */
 .top_bar {
-  background-color: transparent;
+  background-color: #222;
   height: 50px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.17);
 }
@@ -42,7 +36,7 @@
 /* Navigation */
 .navigation {
   height: 85px;
-  background-color: transparent;
+  background-color: #222;
   color: #FFFFFF;
   border-bottom: 1px solid rgba(255, 255, 255, 0.17);
 }

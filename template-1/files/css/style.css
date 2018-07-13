@@ -1,20 +1,17 @@
 .no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 0;
-    padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .position_absolute {
-    position: absolute;
+  position: absolute;
 }
 
 .position_relative {
-    position: relative;
+  position: relative;
 }
-
-$max_width: 1170px;
-
 
 /********* BOOTSTRAP MEDIA-QUERY MIXINS ********* Media Breakpoint  DUBO: down, up, between, only ************
 
@@ -42,3 +39,36 @@ $max_width: 1170px;
 @include media-breakpoint-up(xl) {}  ||  @media (min-width: 1200px) {}
 
 ********* BOOTSTRAP MEDIA-QUERY MIXINS *********/
+body {
+  background-color: #F7F7F7;
+  font-family: "open sans";
+  font-size: 16px;
+}
+
+input {
+  font-family: "open sans";
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', serif;
+  /* letter-spacing: .80px; */
+  margin: 0px;
+  padding: 0px;
+  font-weight: 700;
+}
+
+.max_width {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

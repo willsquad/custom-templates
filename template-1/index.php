@@ -10,8 +10,9 @@
         </title>
         <link rel="stylesheet" href="files/css/bootstrap.css">
         <link rel="stylesheet" href="files/css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:300,400,600,700|Raleway:600|Roboto+Slab" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:400,500,600,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
 <body>
     <!-- START OF MAIN CONTAINER FLUID -->
@@ -20,8 +21,12 @@
         <div class="row">
 
         <!-- Header -->
-        <?php include('header/header.php') ?>
+        <?php include('header/header.php'); ?>
         <!-- Header -->
+
+        <!-- Carousel -->
+        <?php include('carousel/carousel.php'); ?>
+        <!-- Carousel -->
             
         </div>
         <!-- END OF MAIN ROW -->
@@ -30,7 +35,6 @@
 </body>
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="files/js/main.js"></script>
 
 </html>
