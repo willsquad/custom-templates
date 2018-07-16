@@ -1,0 +1,56 @@
+/**** Carousel ****/
+#get_quote {
+    background: #f8d24b;
+    padding: 35px 0px;
+
+    .get_quote_lhs {
+        font-size: 30px;
+        color: #000;
+        font-weight: 400;
+        margin: 15px;
+
+        @media (max-width: 991px) {
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 26px;
+        }
+    }
+
+    .get_quote_rhs {
+        margin: 15px;
+
+        @media (max-width: 991px) {
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        a {
+            font-size: 16px;
+            font-weight: bold;
+            background: none;
+            color: #282828;
+            width: 164px;
+            line-height: 49px;
+            border: 1px solid #2f2f2f;
+            border-radius: 3px;
+            float: none;
+            display: inline-block;
+            font-family: 'Open Sans', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            transition: all .4s ease;
+            cursor: pointer;
+            text-transform: uppercase;
+
+            &:hover {
+                background: #242424;
+                color: #fff;
+            }
+        }
+    }
+}
+/**** Carousel ****/

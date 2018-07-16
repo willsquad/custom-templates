@@ -27,6 +27,14 @@
         <!-- Carousel -->
         <?php include('carousel/carousel.php'); ?>
         <!-- Carousel -->
+
+        <!-- Get Quote -->
+        <?php include('get_quote/get_quote.php'); ?>
+        <!-- Get Quote -->
+
+        <!-- Our Mission -->
+        <?php include('our_mission/our_mission.php'); ?>
+        <!-- Our Mission -->
             
         </div>
         <!-- END OF MAIN ROW -->
