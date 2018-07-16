@@ -1,30 +1,34 @@
 /**** Get Quote ****/
 #get_quote {
     background: #f8d24b;
-    padding: 35px 0px;
+    padding: 35px 15px;
+
 
     .get_quote_lhs {
         font-size: 30px;
         color: #000;
         font-weight: 400;
-        margin: 15px;
+        margin: 15px 0px;
 
         @media (max-width: 991px) {
             text-align: center;
             flex-grow: 1;
+            font-size: 26px;
         }
 
         @media (max-width: 767px) {
-            font-size: 26px;
+            font-size: 24px;
         }
     }
 
     .get_quote_rhs {
-        margin: 15px;
+        margin: 15px 0px;
+        margin-left: 15px;
 
         @media (max-width: 991px) {
             text-align: center;
             flex-grow: 1;
+            margin-left: 0px;
         }
 
         a {

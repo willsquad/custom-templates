@@ -33,3 +33,13 @@ h1, h2, h3, h4, h5, h6 {
     max-width: $max_width;
     margin: 0 auto;
 }
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #797979;
+    letter-spacing: .40px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 26px;
+}

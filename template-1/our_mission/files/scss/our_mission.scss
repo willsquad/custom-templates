@@ -1,0 +1,67 @@
+/**** Our Mission ****/
+#our_mission {
+    background-color: #fff;
+    padding: 100px 0px;
+
+    .our_mission_lhs {
+        //margin-bottom: 40px;
+    }
+
+    .our_mission_statement_div {
+        background: #fff;
+        padding: 45px 30px;
+        box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.15);
+        max-width: 85%;
+        //text-align: center;
+
+        @media (max-width: 991px) {
+                max-width: 100%;
+        }
+
+        h3 {
+
+        }
+
+        p {
+            color: #797979;
+            font-size: 16px;
+            font-family: 'Open Sans';
+            line-height: 26px;
+            margin: 20px 0;
+            letter-spacing: 0;
+        }
+
+        a {
+            color: #2A7EC0;
+            font-size: 15px;
+            font-family: 'Open Sans';
+            border-bottom: 1px solid #2A7EC0;
+        }
+    }
+
+    .our_mission_rhs {
+        padding-top: 40px;
+
+        .mission_sub_section {
+            margin-bottom: 50px;
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+
+        .detail {
+
+            h4 {
+                font-size: 20px;
+                color: #242424;
+                margin-bottom: 15px;
+            }
+            
+            p {
+                letter-spacing: 0px;
+            }
+        }
+    }
+}
+/**** Our Mission ****/
