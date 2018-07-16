@@ -1,0 +1,42 @@
+/**** What we offer  */
+#what_we_offer {
+  background: url("what_we_offer/files/images/offer_bg.jpg") no-repeat center top;
+  background-size: cover;
+  padding: 100px 15px;
+}
+#what_we_offer h3 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 45px;
+}
+@media (max-width: 991px) {
+  #what_we_offer h3 {
+    font-size: 30px;
+  }
+}
+#what_we_offer .offers_div {
+  color: #fff;
+  margin-bottom: 20px;
+}
+#what_we_offer .offers_div .title {
+  margin: 30px 0px 10px;
+}
+#what_we_offer .offers_div .description {
+  margin-bottom: 10px;
+}
+#what_we_offer .offers_div .description p {
+  color: #aaa;
+  line-height: 22px;
+  font-size: 14px;
+}
+#what_we_offer .offers_div .read_more a {
+  color: #d7ad3c;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/**** What we offer  */
+
+/*# sourceMappingURL=what_we_offer.css.map */

@@ -35,6 +35,10 @@
         <!-- Our Mission -->
         <?php include('our_mission/our_mission.php'); ?>
         <!-- Our Mission -->
+        
+        <!-- What we offer -->
+        <?php include('what_we_offer/what_we_offer.php'); ?>
+        <!-- What we offer -->
             
         </div>
         <!-- END OF MAIN ROW -->
