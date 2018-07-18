@@ -1,0 +1,31 @@
+/**** Our Projects  ****/
+#our_projects {
+  background: url("our_projects/files/images/project_bg.jpg") no-repeat center top;
+  background-size: cover;
+  padding: 100px 15px;
+}
+#our_projects .section_title {
+  color: #fff;
+  font-size: 34px;
+  margin-bottom: 35px;
+  font-weight: 600;
+  position: relative;
+}
+#our_projects .section_title::after {
+  width: 35px;
+  position: absolute;
+  height: 2px;
+  background: #fff;
+  content: '';
+  bottom: 6px;
+  margin-left: 14px;
+}
+@media (max-width: 991px) {
+  #our_projects .section_title {
+    font-size: 30px;
+  }
+}
+
+/**** Our Projects  ****/
+
+/*# sourceMappingURL=our_projects.css.map */

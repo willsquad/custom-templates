@@ -44,6 +44,10 @@
         <!-- Our core values & About us -->
         <?php include('values_and_about/values_and_about.php'); ?>
         <!-- Our core values & About us -->
+
+        <!-- Our Projects -->
+        <?php include('our_projects/our_projects.php'); ?>
+        <!-- Our Projects -->
             
         </div>
         <!-- END OF MAIN ROW -->

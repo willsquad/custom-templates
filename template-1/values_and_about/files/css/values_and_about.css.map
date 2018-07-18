@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AACA,iBAAkB,CACd,OAAO,CAAE,SAAS,CAClB,gBAAgB,CAAE,IAAI",
+"mappings": "AAAA,4BAA4B;AAC5B,iBAAkB;EACd,OAAO,EAAE,SAAS;EAClB,gBAAgB,EAAE,IAAI;;;AAE1B,4BAA4B",
 "sources": ["../scss/values_and_about.scss"],
 "names": [],
 "file": "values_and_about.css"
