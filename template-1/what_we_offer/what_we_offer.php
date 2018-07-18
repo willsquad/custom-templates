@@ -7,7 +7,7 @@
     <div class="row max_width">
 
         <div class="col-12">
-            <h3>What we offer</h3>
+            <h2 class="section_title">What we offer</h2>
         </div>
 
         <!-- Offers Div -->
@@ -54,6 +54,7 @@
             <div class="read_more"><a href="#">Read More</a></div>
         </div>
         <!-- Offers Div -->
+
 
     </div>
     <!-- What we offer -->

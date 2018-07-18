@@ -9,6 +9,7 @@
             Template 1
         </title>
         <link rel="stylesheet" href="files/css/bootstrap.css">
+        <link rel="stylesheet" href="files/css/animate.min.css">
         <link rel="stylesheet" href="files/css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:400,500,600,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

@@ -10,10 +10,4 @@ $(document).ready(function(){
     });
     /* Search */
 
-    /* Menu */
-    $('.nav_menu').on('click', function(){
-        $('.navigation__content__rhs__menu').slideToggle();
-    });
-    /* Menu */
-
 });
