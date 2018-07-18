@@ -56,6 +56,53 @@
         <!-- Offers Div -->
 
 
+        <div class="gray_separate_line lght_gray_separator"></div>
+
+
+        <!-- Offers lower divs -->
+        <div class="offers_div offers_lower_div col-12 col-md-6">
+            <div class="row">  
+
+                <div class="image col-lg-4 col-md-4 col-sm-4 col-12 d-flex align-items-center">
+                    <img src="what_we_offer/files/images/chemical.jpg" alt="Material" class="img-responsive">
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-sm-8 col-12">
+                    <div class="title">
+                        <h5>Chemical Research</h5>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis labore perferendis deleniti iusto consequatur quis!</p>
+                    </div>
+                    <div class="read_more"><a href="#">Read More</a></div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Offers lower divs -->
+
+        <!-- Offers lower divs -->
+        <div class="offers_div offers_lower_div col-12 col-md-6">
+            <div class="row">  
+
+                <div class="image col-lg-4 col-md-4 col-sm-4 col-12 d-flex align-items-center">
+                    <img src="what_we_offer/files/images/power.jpg" alt="Material" class="img-responsive">
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-sm-8 col-12">
+                    <div class="title">
+                        <h5>Power & Energy</h5>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis labore perferendis deleniti iusto consequatur quis!</p>
+                    </div>
+                    <div class="read_more"><a href="#">Read More</a></div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Offers lower divs -->
+
     </div>
     <!-- What we offer -->
 </div>

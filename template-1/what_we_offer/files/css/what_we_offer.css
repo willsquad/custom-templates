@@ -29,7 +29,7 @@
 }
 #what_we_offer .offers_div {
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 @media (max-width: 767px) {
   #what_we_offer .offers_div {
@@ -56,6 +56,27 @@
   font-weight: 600;
   text-decoration: underline;
   text-transform: uppercase;
+}
+#what_we_offer .offers_div.offers_lower_div {
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+#what_we_offer .offers_div.offers_lower_div .title {
+  margin-top: 0px;
+}
+#what_we_offer .offers_div.offers_lower_div .image {
+  margin-bottom: 30px;
+}
+#what_we_offer .gray_separate_line.lght_gray_separator {
+  background: #4b4c4c;
+}
+#what_we_offer .gray_separate_line {
+  background: #d5d7da;
+  height: 1px;
+  width: 100%;
+}
+#what_we_offer .padding_top_40 {
+  padding-top: 40px;
 }
 
 /**** What we offer  */

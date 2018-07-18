@@ -29,7 +29,7 @@
     /* Offers Div */
     .offers_div {
         color: #fff;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
 
         @media (max-width: 767px) {
             margin-bottom: 50px;
@@ -62,10 +62,34 @@
                 text-transform: uppercase;
             }
         }
+
+        &.offers_lower_div {
+            margin-top: 40px;
+            margin-bottom: 0px;
+
+            .title {
+                margin-top: 0px;
+            }
+
+            .image {
+                margin-bottom: 30px;
+            }
+        }
     }
     /* Offers Div */
 
+    .gray_separate_line.lght_gray_separator {
+        background: #4b4c4c;
+    }
+    .gray_separate_line {
+        background: #d5d7da;
+        height: 1px;
+        width: 100%;
+    }
 
+    .padding_top_40 {
+        padding-top: 40px;
+    }
 
 }
 /**** What we offer  */
