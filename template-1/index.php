@@ -40,6 +40,10 @@
         <!-- What we offer -->
         <?php include('what_we_offer/what_we_offer.php'); ?>
         <!-- What we offer -->
+
+        <!-- Our core values & About us -->
+        <?php include('values_and_about/values_and_about.php'); ?>
+        <!-- Our core values & About us -->
             
         </div>
         <!-- END OF MAIN ROW -->
