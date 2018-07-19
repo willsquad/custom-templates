@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.image_slider_container').slick({
+    $('#image_slider_container').slick({
         prevArrow:'<i class="arrow_left material-icons">chevron_left</i>',
         nextArrow:'<i class="arrow_right material-icons">chevron_right</i>',
         dots:false,

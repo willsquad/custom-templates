@@ -16,7 +16,6 @@
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <link href="https://pro.fontawesome.com/releases/v5.1.1/css/all.css" data-prerender="keep" rel="stylesheet">
     </head>
 <body>
     <!-- START OF MAIN CONTAINER FLUID -->
@@ -50,6 +49,10 @@
         <!-- Our Projects -->
         <?php include('our_projects/our_projects.php'); ?>
         <!-- Our Projects -->      
+
+        <!-- Our Team -->
+        <?php include('our_team/our_team.php'); ?>
+        <!-- Our Team -->      
             
         </div>
         <!-- END OF MAIN ROW -->

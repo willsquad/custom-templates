@@ -13,7 +13,7 @@
         </div>
     </div>
 
-    <div class="image_slider_container">
+    <div id="image_slider_container" class="image_slider_container">
         <!-- Slide -->
             <div class="slide">
                 <img src="our_projects/files/images/project_img1.jpg" alt="">

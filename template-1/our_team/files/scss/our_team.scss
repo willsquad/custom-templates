@@ -1,26 +1,26 @@
 /**** Our Projects  ****/
-#our_projects {
-    background: url('our_projects/files/images/project_bg.jpg') no-repeat center top;
+#our_team {
+    background: url('our_team/files/images/about_worker_bg.jpg') no-repeat center top;
     background-size: cover;
-    padding: 100px 0px 0px;
+    padding: 100px 0px 100px;
 
     .section_title {
-        color: #fff;
+        color: #222;
         font-size: 34px;
         margin-bottom: 35px;
         font-weight: 600;
         position: relative;
-
+    
         &::after {
             width: 35px;
         position: absolute;
         height: 2px;
-        background: #fff;
+        background: #5093e6;
         content: '';
         bottom: 6px;
         margin-left: 14px;
         }
-
+    
         @media (max-width: 991px) {
             font-size: 30px;
         }
@@ -33,7 +33,7 @@
     .description {
         margin-bottom: 45px;
         p {
-            color: #a7aaac;
+            color: #797979;
         }
     }
 
@@ -48,11 +48,7 @@
 
 /* Slick slider arrows */
 
-.image_slider_container {
-    width: 100%;
-}
-
-.slick-slide img {
+.team_slider_container {
     width: 100%;
 }
 
@@ -64,13 +60,13 @@ i.arrow_left {
     cursor: pointer;
     padding: 0px;
     font-size: 40px;
-    color: #6d6e6f;
-    border: 2px solid #6d6e6f;
+    color: #999;
+    border: 2px solid #999;
     transition: all 0.3s ease;
 
     &:hover {
-        color: #fff;
-        border: 2px solid #fff;
+        color: #000;
+        border: 2px solid #000;
     }
 }
 
@@ -82,13 +78,13 @@ i.arrow_right {
     cursor: pointer;
     padding: 0px;
     font-size: 40px;
-    color: #6d6e6f;  
-    border: 2px solid #6d6e6f;
+    color: #999;  
+    border: 2px solid #999;
     transition: all 0.3s ease;
     
     &:hover {
-        color: #fff;
-        border: 2px solid #fff;
+        color: #000;
+        border: 2px solid #000;
     }
 }
 
