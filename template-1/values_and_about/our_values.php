@@ -25,7 +25,7 @@
                 <div class="col-12 col-md-9 accordion__content__rhs">
                     <div class="accordion__content__rhs__title">
                         <h5>Lorem, ipsum dolor.</h5>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor.</p>
                     </div>
                     <div class="accordion__content__rhs__description"></div>
                 </div>

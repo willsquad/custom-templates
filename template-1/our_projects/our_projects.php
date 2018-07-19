@@ -3,9 +3,68 @@
 </style>
 
 <div id="our_projects" class="col-12">
-    <div class="row max_width">
-        <div class="col-12">
+    <div class="row max_width projects_title_description_row">
+        <div class="">
             <h2 class="section_title">Our Projects</h2>
         </div>
+
+        <div class="description">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia iste impedit iure tenetur eaque excepturi beatae error, adipisci corporis deleniti distinctio maxime non ratione laboriosam magni harum? Dolores vero tempora natus nostrum sit corrupti, quisquam vitae mollitia placeat ipsum distinctio tempore magni porro ex nisi provident optio quae sequi ipsa.</p>
+        </div>
+    </div>
+
+    <div class="image_slider_container">
+        <!-- Slide -->
+            <div class="slide">
+                <img src="our_projects/files/images/project_img1.jpg" alt="">
+            </div>
+        <!-- Slide -->
+        <!-- Slide -->
+            <div class="slide">
+                <img src="our_projects/files/images/project_img2.jpg" alt="">
+            </div>
+        <!-- Slide -->
+        <!-- Slide -->
+            <div class="slide">
+                <img src="our_projects/files/images/project_img3.jpg" alt="">
+            </div>
+        <!-- Slide -->
+        <!-- Slide -->
+            <div class="slide">
+                <img src="our_projects/files/images/project_img4.jpg" alt="">
+            </div>
+        <!-- Slide -->
+        <!-- Slide -->
+            <div class="slide">
+                <img src="our_projects/files/images/project_img5.jpg" alt="">
+            </div>
+        <!-- Slide -->
+        <!-- Slide -->
+            <div class="slide">
+                <img src="our_projects/files/images/project_img6.jpg" alt="">
+            </div>
+        <!-- Slide -->
+        <!-- Slide -->
+            <div class="slide">
+                <img src="our_projects/files/images/project_img7.jpg" alt="">
+            </div>
+        <!-- Slide -->
+        
+        <!-- Slide -->
+        <!-- <div class="grid col-lg-3">
+            <figure class="effect-goliath">
+                <img src="our_projects/files/images/project_img1.jpg" alt="Project 1"/>
+                <figcaption>
+                    <p>Project Name</p>
+                    <a href="#">View Project</a>
+                </figcaption>			
+            </figure>
+        </div> -->
+        <!-- Slide -->
+
     </div>
 </div>
+
+<script>
+    <?php include('files/js/our_projects.js'); ?>
+</script>

@@ -2,7 +2,7 @@
 #our_projects {
     background: url('our_projects/files/images/project_bg.jpg') no-repeat center top;
     background-size: cover;
-    padding: 100px 15px;
+    padding: 100px 0px 0px;
 
     .section_title {
         color: #fff;
@@ -25,5 +25,93 @@
             font-size: 30px;
         }
     }
+
+    .projects_title_description_row {
+        padding: 0px 15px;
+    }
+
+    .description {
+        margin-bottom: 45px;
+        p {
+            color: #a7aaac;
+        }
+    }
+
+    .image_slider_container {
+        @media only screen and (max-width: 767px) {
+            margin-top: 50px;
+        }
+    }
+
+    
 }
+
+/* Slick slider arrows */
+
+.slick-slide img {
+    width: 100%;
+}
+
+i.arrow_left {
+    float: left;
+    position: absolute;
+    right: 100px;
+    top: -90%;
+    cursor: pointer;
+    padding: 0px;
+    font-size: 40px;
+    color: #6d6e6f;
+    border: 2px solid #6d6e6f;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: #fff;
+        border: 2px solid #fff;
+    }
+}
+
+i.arrow_right {
+    float: right;
+    position: absolute;
+    right: 40px;
+    top: -90%;
+    cursor: pointer;
+    padding: 0px;
+    font-size: 40px;
+    color: #6d6e6f;  
+    border: 2px solid #6d6e6f;
+    transition: all 0.3s ease;
+    
+    &:hover {
+        color: #fff;
+        border: 2px solid #fff;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    i.arrow_right {
+        top: -25%;
+        right: 35%;
+    }
+
+    i.arrow_left {
+        top: -25%;
+        right: 55%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    i.arrow_right {
+        top: -20%;
+        right: 42%;
+    }
+
+    i.arrow_left {
+        top: -20%;
+        right: 58%;
+    }
+}
+/* Slick slider arrows */
+
+
 /**** Our Projects  ****/
