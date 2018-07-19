@@ -8,7 +8,7 @@ $(document).ready(function(){
             $('.accordion__content').slideUp();
             self.closest('.accordion').find('.accordion__content').slideDown();
 
-            $('.material-icons').html('add');
+            $('.accordion__title__icon').find('.material-icons').html('add');
             self.find('.material-icons').html('remove');
         } else { // if active 
             self.removeClass('active');
