@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="files/css/bootstrap.css">
         <link rel="stylesheet" href="files/css/animate.min.css">
         <link rel="stylesheet" href="files/css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:400,500,600,700|Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:400,500,600,700|PT+Serif|Material+Icons" rel="stylesheet">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
@@ -53,6 +53,18 @@
         <!-- Our Team -->
         <?php include('our_team/our_team.php'); ?>
         <!-- Our Team -->      
+
+        <!-- Our Stats -->
+        <?php include('our_stats/our_stats.php'); ?>
+        <!-- Our Stats -->      
+        
+        <!-- Latest News -->
+        <?php include('latest_news/latest_news.php'); ?>
+        <!-- Latest News -->     
+        
+        <!-- Contact Us Band -->
+        <?php include('contact_us_band/contact_us_band.php'); ?>
+        <!-- Contact Us Band -->
             
         </div>
         <!-- END OF MAIN ROW -->

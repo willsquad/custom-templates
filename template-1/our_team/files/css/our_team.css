@@ -8,12 +8,12 @@
 }
 @media (max-width: 991px) {
   #our_team {
-    padding: 75px 0px 75px;
+    padding: 75px 0px;
   }
 }
 @media (max-width: 767px) {
   #our_team {
-    padding: 50px 0px 50px;
+    padding: 50px 0px;
   }
 }
 #our_team .section_title {

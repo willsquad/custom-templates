@@ -1,0 +1,45 @@
+#our_stats {
+  background: url("our_stats/files/images/numbering_bg.jpg") no-repeat center top;
+  background-size: cover;
+  padding: 80px 0px 40px;
+}
+@media (max-width: 991px) {
+  #our_stats {
+    padding: 60px 0px 20px;
+  }
+}
+@media (max-width: 757px) {
+  #our_stats {
+    padding: 40px 0px 0px;
+  }
+}
+#our_stats .number {
+  font-size: 60px;
+  color: #f8d24b;
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 70px;
+}
+@media (max-width: 991px) {
+  #our_stats .number {
+    font-size: 40px;
+  }
+}
+#our_stats .text {
+  font-size: 20px;
+  color: #fff;
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+}
+#our_stats .stats_div {
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=our_stats.css.map */
