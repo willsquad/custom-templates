@@ -3,6 +3,8 @@
   background: url("our_team/files/images/about_worker_bg.jpg") no-repeat center top;
   background-size: cover;
   padding: 100px 0px 100px;
+  /* Slick slider arrows */
+  /* Slick slider arrows */
 }
 #our_team .section_title {
   color: #222;
@@ -39,13 +41,10 @@
     margin-top: 50px;
   }
 }
-
-/* Slick slider arrows */
-.team_slider_container {
+#our_team .team_slider_container {
   width: 100%;
 }
-
-i.arrow_left {
+#our_team i.arrow_left {
   float: left;
   position: absolute;
   right: 100px;
@@ -57,12 +56,11 @@ i.arrow_left {
   border: 2px solid #999;
   transition: all 0.3s ease;
 }
-i.arrow_left:hover {
+#our_team i.arrow_left:hover {
   color: #000;
   border: 2px solid #000;
 }
-
-i.arrow_right {
+#our_team i.arrow_right {
   float: right;
   position: absolute;
   right: 40px;
@@ -74,34 +72,31 @@ i.arrow_right {
   border: 2px solid #999;
   transition: all 0.3s ease;
 }
-i.arrow_right:hover {
+#our_team i.arrow_right:hover {
   color: #000;
   border: 2px solid #000;
 }
-
 @media only screen and (max-width: 767px) {
-  i.arrow_right {
+  #our_team i.arrow_right {
     top: -25%;
     right: 35%;
   }
-
-  i.arrow_left {
+  #our_team i.arrow_left {
     top: -25%;
     right: 55%;
   }
 }
 @media only screen and (max-width: 600px) {
-  i.arrow_right {
+  #our_team i.arrow_right {
     top: -20%;
     right: 42%;
   }
-
-  i.arrow_left {
+  #our_team i.arrow_left {
     top: -20%;
     right: 58%;
   }
 }
-/* Slick slider arrows */
+
 /**** Our Projects  ****/
 
 /*# sourceMappingURL=our_team.css.map */
