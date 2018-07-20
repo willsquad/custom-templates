@@ -1,0 +1,20 @@
+/**** Footer ****/
+#footer {
+  background-color: #1a1a1a;
+  padding: 100px 0px;
+  min-height: 400px;
+}
+@media (max-width: 991px) {
+  #footer {
+    padding: 75px 0px;
+  }
+}
+@media (max-width: 767px) {
+  #footer {
+    padding: 50px 0px;
+  }
+}
+
+/**** Footer ****/
+
+/*# sourceMappingURL=footer.css.map */

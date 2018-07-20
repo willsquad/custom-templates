@@ -65,6 +65,10 @@
         <!-- Contact Us Band -->
         <?php include('contact_us_band/contact_us_band.php'); ?>
         <!-- Contact Us Band -->
+        
+        <!-- Footer -->
+        <?php include('footer/footer.php'); ?>
+        <!-- Footer -->
             
         </div>
         <!-- END OF MAIN ROW -->
