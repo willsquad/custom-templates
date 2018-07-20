@@ -1,7 +1,9 @@
 $(document).ready(function(){
     $('#image_slider_container').slick({
-        prevArrow:'<i class="arrow_left material-icons">chevron_left</i>',
-        nextArrow:'<i class="arrow_right material-icons">chevron_right</i>',
+        /* prevArrow:'<i class="arrow_left material-icons">chevron_left</i>',
+        nextArrow:'<i class="arrow_right material-icons">chevron_right</i>', */
+        prevArrow: $('.prev-slide'),
+        nextArrow: $('.next-slide'),
         dots:false,
         initialSlide: 0,
         slidesToShow: 5,
@@ -12,7 +14,7 @@ $(document).ready(function(){
         autoplaySpeed: 2000,
         responsive: [
             {
-                breakpoint: 1400,
+                breakpoint: 1600,
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 1,

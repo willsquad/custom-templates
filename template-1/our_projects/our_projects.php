@@ -11,6 +11,10 @@
         <div class="description">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia iste impedit iure tenetur eaque excepturi beatae error, adipisci corporis deleniti distinctio maxime non ratione laboriosam magni harum? Dolores vero tempora natus nostrum sit corrupti, quisquam vitae mollitia placeat ipsum distinctio tempore magni porro ex nisi provident optio quae sequi ipsa.</p>
         </div>
+
+        
+        <div class="prev-slide"><i class="arrow_left material-icons">chevron_left</i></div>
+        <div class="next-slide"><i class="arrow_right material-icons">chevron_right</i></div>
     </div>
 
     <div id="image_slider_container" class="image_slider_container">
@@ -61,8 +65,8 @@
             </figure>
         </div> -->
         <!-- Slide -->
-
     </div>
+
 </div>
 
 <script>
