@@ -1,55 +1,103 @@
 $(document).ready(function(){
-    $('#image_slider_container').slick({
-        /* prevArrow:'<i class="arrow_left material-icons">chevron_left</i>',
-        nextArrow:'<i class="arrow_right material-icons">chevron_right</i>', */
-        prevArrow: $('.prev-slide'),
-        nextArrow: $('.next-slide'),
-        dots:false,
-        initialSlide: 0,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        centerMode: false,
-        centerPadding: '20px',
-        autoplay: true,
-        autoplaySpeed: 2000,
-        responsive: [
-            {
-                breakpoint: 1600,
+
+    var sliderContainer = $(".slider_container");
+  
+    sliderContainer.each(function() {
+      if ($(this).is(".projects_slider_container")) {
+          $(this).slick({
+            prevArrow: $('.prev-slide-project'),
+            nextArrow: $('.next-slide-project'),
+            dots:false,
+            initialSlide: 0,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            centerMode: false,
+            centerPadding: '20px',
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                breakpoint: 1200,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                     infinite: true
                 }
-            },
-            {
-            breakpoint: 1200,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: true
-            }
-            },
-            {
-            breakpoint: 767,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-            },
-            {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-            },
-            {
-            breakpoint: 450,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-            }
-        ]
+                },
+                {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+                }
+            ]
+        });
+      } 
+      else if ($(this).is(".team_slider_container")){
+        $(this).slick({
+            prevArrow: $('.prev-slide-team'),
+            nextArrow: $('.next-slide-team'),
+            dots:false,
+            initialSlide: 0,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode: false,
+            centerPadding: '20px',
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 1600,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true
+                    }
+                },
+                {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+                },
+                {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+                },
+                {
+                breakpoint: 450,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+                }
+            ]
+        });
+      }
+      else {
+        $(this).slick();
+      }
     });
+    
+
 });

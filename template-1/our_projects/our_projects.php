@@ -13,11 +13,11 @@
         </div>
 
         
-        <div class="prev-slide"><i class="arrow_left material-icons">chevron_left</i></div>
-        <div class="next-slide"><i class="arrow_right material-icons">chevron_right</i></div>
+        <div class="prev-slide-project"><i class="arrow_left material-icons">chevron_left</i></div>
+        <div class="next-slide-project"><i class="arrow_right material-icons">chevron_right</i></div>
     </div>
 
-    <div id="image_slider_container" class="image_slider_container">
+    <div class="projects_slider_container slider_container">
         <!-- Slide -->
             <div class="slide">
                 <img src="our_projects/files/images/project_img1.jpg" alt="">

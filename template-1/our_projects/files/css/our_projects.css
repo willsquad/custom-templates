@@ -3,8 +3,8 @@
   background: url("our_projects/files/images/project_bg.jpg") no-repeat center top;
   background-size: cover;
   padding: 100px 0px 0px;
-  /* Slick slider arrows */
-  /* Slick slider arrows */
+  /* Slick slider */
+  /* Slick slider */
 }
 @media (max-width: 991px) {
   #our_projects {
@@ -48,45 +48,48 @@
   color: #a7aaac;
 }
 @media only screen and (max-width: 767px) {
-  #our_projects .image_slider_container {
+  #our_projects .projects_slider_container {
     margin-top: 50px;
   }
 }
 #our_projects .image_slider_container {
   width: 100%;
 }
+#our_projects .slick-slide {
+  max-height: 320px;
+}
 #our_projects .slick-slide img {
   width: 100%;
 }
-#our_projects .prev-slide {
+#our_projects .prev-slide-project {
   position: absolute;
   right: 75px;
 }
 @media (max-width: 767px) {
-  #our_projects .prev-slide {
-    right: 55%;
+  #our_projects .prev-slide-project {
+    right: 52%;
     bottom: -25px;
   }
 }
 @media (max-width: 500px) {
-  #our_projects .prev-slide {
-    right: 58%;
+  #our_projects .prev-slide-project {
+    right: 53%;
     bottom: -25px;
   }
 }
-#our_projects .next-slide {
+#our_projects .next-slide-project {
   position: absolute;
   right: 15px;
 }
 @media (max-width: 767px) {
-  #our_projects .next-slide {
-    right: 45%;
+  #our_projects .next-slide-project {
+    right: 40%;
     bottom: -25px;
   }
 }
 @media (max-width: 500px) {
-  #our_projects .next-slide {
-    right: 42%;
+  #our_projects .next-slide-project {
+    right: 38%;
     bottom: -25px;
   }
 }

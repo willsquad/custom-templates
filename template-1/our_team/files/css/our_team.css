@@ -3,8 +3,8 @@
   background: url("our_team/files/images/about_worker_bg.jpg") no-repeat center top;
   background-size: cover;
   padding: 100px 0px 100px;
-  /* Slick slider arrows */
-  /* Slick slider arrows */
+  /* Slick slider */
+  /* Slick slider */
 }
 @media (max-width: 991px) {
   #our_team {
@@ -54,57 +54,87 @@
 #our_team .team_slider_container {
   width: 100%;
 }
-#our_team i.arrow_left {
-  float: left;
+@media (max-width: 767px) {
+  #our_team .team_slider_container {
+    margin-top: 50px;
+  }
+}
+#our_team .team_member_name {
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 600;
+  color: #242424;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 15px 3px;
+}
+#our_team .team_member_designation {
+  font-size: 14px;
+  color: #898989;
+  text-align: center;
+}
+#our_team .slick-slide {
+  padding: 0px 15px !important;
+  outline: none;
+}
+#our_team .slick-slide img {
+  width: 100%;
+}
+#our_team .prev-slide-team {
   position: absolute;
-  right: 100px;
-  top: -90%;
+  right: 75px;
+}
+@media (max-width: 767px) {
+  #our_team .prev-slide-team {
+    right: 52%;
+    bottom: -25px;
+  }
+}
+@media (max-width: 500px) {
+  #our_team .prev-slide-team {
+    right: 53%;
+    bottom: -25px;
+  }
+}
+#our_team .next-slide-team {
+  position: absolute;
+  right: 15px;
+}
+@media (max-width: 767px) {
+  #our_team .next-slide-team {
+    right: 40%;
+    bottom: -25px;
+  }
+}
+@media (max-width: 500px) {
+  #our_team .next-slide-team {
+    right: 38%;
+    bottom: -25px;
+  }
+}
+#our_team i.arrow_left {
   cursor: pointer;
   padding: 0px;
   font-size: 40px;
-  color: #999;
-  border: 2px solid #999;
+  color: #6d6e6f;
+  border: 2px solid #6d6e6f;
   transition: all 0.3s ease;
 }
 #our_team i.arrow_left:hover {
-  color: #000;
-  border: 2px solid #000;
+  color: #444;
+  border: 2px solid #444;
 }
 #our_team i.arrow_right {
-  float: right;
-  position: absolute;
-  right: 40px;
-  top: -90%;
   cursor: pointer;
   padding: 0px;
   font-size: 40px;
-  color: #999;
-  border: 2px solid #999;
+  color: #6d6e6f;
+  border: 2px solid #6d6e6f;
   transition: all 0.3s ease;
 }
 #our_team i.arrow_right:hover {
-  color: #000;
-  border: 2px solid #000;
-}
-@media only screen and (max-width: 767px) {
-  #our_team i.arrow_right {
-    top: -25%;
-    right: 35%;
-  }
-  #our_team i.arrow_left {
-    top: -25%;
-    right: 55%;
-  }
-}
-@media only screen and (max-width: 600px) {
-  #our_team i.arrow_right {
-    top: -20%;
-    right: 42%;
-  }
-  #our_team i.arrow_left {
-    top: -20%;
-    right: 58%;
-  }
+  color: #444;
+  border: 2px solid #444;
 }
 
 /**** Our Projects  ****/
