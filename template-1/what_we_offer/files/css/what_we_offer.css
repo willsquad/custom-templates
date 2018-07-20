@@ -6,6 +6,16 @@
   /* Offers Div */
   /* Offers Div */
 }
+@media (max-width: 991px) {
+  #what_we_offer {
+    padding: 75px 15px;
+  }
+}
+@media (max-width: 767px) {
+  #what_we_offer {
+    padding: 50px 15px;
+  }
+}
 #what_we_offer .section_title {
   color: #fff;
   font-size: 34px;

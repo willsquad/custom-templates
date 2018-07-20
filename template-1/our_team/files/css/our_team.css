@@ -6,6 +6,16 @@
   /* Slick slider arrows */
   /* Slick slider arrows */
 }
+@media (max-width: 991px) {
+  #our_team {
+    padding: 75px 0px 75px;
+  }
+}
+@media (max-width: 767px) {
+  #our_team {
+    padding: 50px 0px 50px;
+  }
+}
 #our_team .section_title {
   color: #222;
   font-size: 34px;

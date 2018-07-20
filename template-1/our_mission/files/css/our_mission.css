@@ -3,6 +3,16 @@
   background-color: #fff;
   padding: 100px 0px;
 }
+@media (max-width: 991px) {
+  #our_mission {
+    padding: 75px 0px;
+  }
+}
+@media (max-width: 767px) {
+  #our_mission {
+    padding: 50px 0px;
+  }
+}
 #our_mission .our_mission_statement_div {
   background: #fff;
   padding: 45px 30px;
