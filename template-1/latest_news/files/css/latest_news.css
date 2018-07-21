@@ -75,8 +75,17 @@
 #latest_news .news_list {
   border-bottom: 1px solid #d9d9d9;
   padding: 20px;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  transition: all 0.3s ease;
+}
+#latest_news .news_list:hover {
+  background: url("latest_news/files/images/news_hover_bg.jpg") no-repeat center top;
+  background-size: cover;
+}
+#latest_news .news_list:hover a {
+  color: #fff;
+}
+#latest_news .news_list:hover p {
+  color: #aaa;
 }
 #latest_news .news_list h5 {
   font-weight: 600;
@@ -86,6 +95,7 @@
 #latest_news .news_list a {
   color: #000;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 #latest_news .news_list__read_more {
   padding: 20px;
