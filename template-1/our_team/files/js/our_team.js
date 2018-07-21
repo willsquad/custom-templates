@@ -93,6 +93,19 @@ $(document).ready(function(){
                 }
             ]
         });
+      } else if ($(this).is(".carousel_slider_container")){
+        $(this).slick({
+            prevArrow: $('.prev-slide-carousel'),
+            nextArrow: $('.next-slide-carousel'),
+            dots:false,
+            initialSlide: 0,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: false,
+            centerPadding: '20px',
+            /* autoplay: true,
+            autoplaySpeed: 10000, */
+        });
       }
       else {
         $(this).slick();
