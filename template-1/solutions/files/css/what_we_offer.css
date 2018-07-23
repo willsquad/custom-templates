@@ -1,0 +1,87 @@
+#what_we_offer {
+  background-color: #fff;
+  padding: 100px 0px;
+  /* Offers Div */
+  /* Offers Div */
+}
+@media (max-width: 991px) {
+  #what_we_offer {
+    padding: 75px 0px;
+  }
+}
+@media (max-width: 767px) {
+  #what_we_offer {
+    padding: 50px 0px;
+  }
+}
+#what_we_offer .section_title {
+  color: #1c2837;
+  font-size: 34px;
+  margin-bottom: 35px;
+  font-weight: 600;
+  position: relative;
+}
+#what_we_offer .section_title::after {
+  width: 35px;
+  position: absolute;
+  height: 2px;
+  background: #1c2837;
+  content: '';
+  bottom: 6px;
+  margin-left: 14px;
+}
+@media (max-width: 991px) {
+  #what_we_offer .section_title {
+    font-size: 30px;
+  }
+}
+#what_we_offer .offers_div {
+  color: #1c2837;
+  margin-bottom: 75px;
+}
+@media (max-width: 767px) {
+  #what_we_offer .offers_div {
+    margin-bottom: 50px;
+  }
+}
+#what_we_offer .offers_div:last-child {
+  margin-bottom: 0px;
+}
+#what_we_offer .offers_div .image {
+  overflow: hidden;
+}
+#what_we_offer .offers_div .image img {
+  transition: all 0.3s ease;
+}
+#what_we_offer .offers_div .image img:hover {
+  transform: scale(1.1);
+}
+#what_we_offer .offers_div .title {
+  margin: 30px 0px 10px;
+}
+#what_we_offer .offers_div .description {
+  margin-bottom: 10px;
+}
+#what_we_offer .offers_div .description p {
+  color: #aaa;
+  line-height: 22px;
+  font-size: 14px;
+}
+#what_we_offer .offers_div .read_more a {
+  width: 100%;
+  letter-spacing: .40px;
+  text-transform: uppercase;
+  float: left;
+  font-size: 13px;
+  color: #2488e6;
+  text-decoration: none;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  font-weight: bold;
+}
+#what_we_offer .padding_top_40 {
+  padding-top: 40px;
+}
+
+/*# sourceMappingURL=what_we_offer.css.map */

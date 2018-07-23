@@ -1,0 +1,45 @@
+#banner {
+    background-image: url('solutions/files/images/service-page_bnr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .banner_text {
+        margin-top: 70px;
+        h2 {
+            margin: 0;
+            color: #fff;
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 50px;
+        }
+
+        .breadcrumb {
+            margin-top: 25px;
+            color: #fff;
+            text-align: center;
+
+            a {
+                color: #F8D24B;
+                font-family: 'Poppins';
+                font-weight: 400;
+            }
+
+            i {
+                font-size: 13px;
+                margin: 0px 10px;
+            }
+
+            span {
+                color: #FFFFFF;
+                font-family: 'Poppins';
+                font-weight: 400;
+            }
+        }
+    }
+}

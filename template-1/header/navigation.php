@@ -12,8 +12,8 @@
         <div class="navigation__content__rhs d-flex align-items-center">
             
             <div class="navigation__content__rhs__menu">
-                <a href="#">Home</a>
-                <a href="#">Solutions</a>
+                <a href="index.php">Home</a>
+                <a href="solutions.php">Solutions</a>
                 <a href="#">About Us</a>
                 <a href="#">Projects</a>
                 <a href="#">News</a>
