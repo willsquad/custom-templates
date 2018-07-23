@@ -13,8 +13,8 @@ $(document).ready(function(){
             slidesToScroll: 1,
             centerMode: false,
             centerPadding: '20px',
-            autoplay: true,
-            autoplaySpeed: 2000,
+            /* autoplay: true,
+            autoplaySpeed: 2000, */
             responsive: [
                 {
                 breakpoint: 1200,

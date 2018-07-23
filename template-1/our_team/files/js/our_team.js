@@ -103,8 +103,8 @@ $(document).ready(function(){
             slidesToScroll: 1,
             centerMode: false,
             centerPadding: '20px',
-            /* autoplay: true,
-            autoplaySpeed: 10000, */
+            autoplay: true,
+            autoplaySpeed: 10000,
         });
       }
       else {

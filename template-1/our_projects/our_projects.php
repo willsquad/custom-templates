@@ -20,41 +20,123 @@
     <div class="projects_slider_container slider_container">
         <!-- Slide -->
             <div class="slide">
-                <img src="our_projects/files/images/project_img1.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_projects/files/images/project_img1.jpg" alt="">
+
+                    <div class="overlay">
+                        <a class="view_project" href="#">View Project</a>
+                        <div class="project_name">
+                            Project Name #1
+                        </div>
+                    </div>
+                </div>  
             </div>
         <!-- Slide -->
         <!-- Slide -->
             <div class="slide">
-                <img src="our_projects/files/images/project_img2.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_projects/files/images/project_img2.jpg" alt="">
+
+                    <div class="overlay">
+                        <a class="view_project" href="#">View Project</a>
+                        <div class="project_name">
+                            Project Name #2
+                        </div>
+                    </div>
+                </div>
             </div>
         <!-- Slide -->
         <!-- Slide -->
             <div class="slide">
-                <img src="our_projects/files/images/project_img3.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_projects/files/images/project_img3.jpg" alt="">
+
+                    <div class="overlay">
+                        <a class="view_project" href="#">View Project</a>
+                        <div class="project_name">
+                            Project Name #3
+                        </div>
+                    </div>
+                </div>
             </div>
         <!-- Slide -->
         <!-- Slide -->
             <div class="slide">
-                <img src="our_projects/files/images/project_img4.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_projects/files/images/project_img4.jpg" alt="">
+
+                    <div class="overlay">
+                        <a class="view_project" href="#">View Project</a>
+                        <div class="project_name">
+                            Project Name #4
+                        </div>
+                    </div>
+                </div>
             </div>
         <!-- Slide -->
         <!-- Slide -->
             <div class="slide">
-                <img src="our_projects/files/images/project_img5.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_projects/files/images/project_img5.jpg" alt="">
+
+                    <div class="overlay">
+                        <a class="view_project" href="#">View Project</a>
+                        <div class="project_name">
+                            Project Name #5
+                        </div>
+                    </div>
+                </div>
             </div>
         <!-- Slide -->
         <!-- Slide -->
             <div class="slide">
-                <img src="our_projects/files/images/project_img6.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_projects/files/images/project_img6.jpg" alt="">
+
+                    <div class="overlay">
+                        <a class="view_project" href="#">View Project</a>
+                        <div class="project_name">
+                            Project Name #6
+                        </div>
+                    </div>
+                </div>
             </div>
         <!-- Slide -->
         <!-- Slide -->
             <div class="slide">
-                <img src="our_projects/files/images/project_img7.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_projects/files/images/project_img7.jpg" alt="">
+
+                    <div class="overlay">
+                        <a class="view_project" href="#">View Project</a>
+                        <div class="project_name">
+                            Project Name #7
+                        </div>
+                    </div>
+                </div>
             </div>
         <!-- Slide -->
         
-        <!-- Slide -->
+
+
+        <!-- OLD SlideS -->
+
+        <!-- <div class="grid slide">
+            <figure class="effect-goliath">
+                <img src="our_projects/files/images/project_img1.jpg" alt="1"/>
+                <figcaption>
+                    <p>Project Name #1</p>
+                    <button class="view_project">View Project</button>
+                    <a href="#">View more</a>
+                </figcaption>			
+            </figure>
+        </div> -->
+
+         <!-- <div class="slide">
+            <img src="our_projects/files/images/project_img7.jpg" alt="">
+        </div> -->
+
+            
         <!-- <div class="grid col-lg-3">
             <figure class="effect-goliath">
                 <img src="our_projects/files/images/project_img1.jpg" alt="Project 1"/>
@@ -70,5 +152,5 @@
 </div>
 
 <script>
-    <?php include('files/js/our_projects.js'); ?>
+    <?php //include('files/js/our_projects.js'); ?>
 </script>

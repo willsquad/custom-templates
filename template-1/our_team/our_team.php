@@ -21,7 +21,18 @@
         <div class="col-12 col-md-9 slider_container team_slider_container">
             <!-- Slide -->
             <div class="slide">
-                <img src="our_team/files/images/team_img1.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_team/files/images/team_img1.jpg" alt="">
+                    <div class="overlay">
+                        <div class="overlay_icons">
+                            <a class="social_icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-google"></i></a>
+                        </div>    
+                    </div>
+                </div>
+               
                 <div class="team_member_name">
                     Member Name
                 </div>
@@ -32,7 +43,18 @@
             <!-- Slide -->
             <!-- Slide -->
             <div class="slide">
-                <img src="our_team/files/images/team_img2.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_team/files/images/team_img2.jpg" alt="">
+                    <div class="overlay">
+                        <div class="overlay_icons">
+                            <a class="social_icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-google"></i></a>
+                        </div>    
+                    </div>
+                </div>
+
                 <div class="team_member_name">
                     Member Name
                 </div>
@@ -43,7 +65,18 @@
             <!-- Slide -->
             <!-- Slide -->
             <div class="slide">
-                <img src="our_team/files/images/team_img3.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_team/files/images/team_img3.jpg" alt="">
+                    <div class="overlay">
+                        <div class="overlay_icons">
+                            <a class="social_icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-google"></i></a>
+                        </div>    
+                    </div>
+                </div>
+
                 <div class="team_member_name">
                     Member Name
                 </div>
@@ -54,7 +87,18 @@
             <!-- Slide -->
             <!-- Slide -->
             <div class="slide">
-                <img src="our_team/files/images/team_img4.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_team/files/images/team_img4.jpg" alt="">
+                    <div class="overlay">
+                        <div class="overlay_icons">
+                            <a class="social_icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-google"></i></a>
+                        </div>    
+                    </div>
+                </div>
+
                 <div class="team_member_name">
                     Member Name
                 </div>
@@ -65,7 +109,17 @@
             <!-- Slide -->
             <!-- Slide -->
             <div class="slide">
-                <img src="our_team/files/images/team_img5.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_team/files/images/team_img5.jpg" alt="">
+                    <div class="overlay">
+                        <div class="overlay_icons">
+                            <a class="social_icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-google"></i></a>
+                        </div>    
+                    </div>
+                </div>
                 <div class="team_member_name">
                     Member Name
                 </div>
@@ -76,7 +130,17 @@
             <!-- Slide -->
             <!-- Slide -->
             <div class="slide">
-                <img src="our_team/files/images/team_img6.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_team/files/images/team_img6.jpg" alt="">
+                    <div class="overlay">
+                        <div class="overlay_icons">
+                            <a class="social_icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-google"></i></a>
+                        </div>    
+                    </div>
+                </div>
                 <div class="team_member_name">
                     Member Name
                 </div>
@@ -87,7 +151,17 @@
             <!-- Slide -->
             <!-- Slide -->
             <div class="slide">
-                <img src="our_team/files/images/team_img7.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_team/files/images/team_img7.jpg" alt="">
+                    <div class="overlay">
+                        <div class="overlay_icons">
+                            <a class="social_icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-google"></i></a>
+                        </div>    
+                    </div>
+                </div>
                 <div class="team_member_name">
                     Member Name
                 </div>
@@ -98,7 +172,17 @@
             <!-- Slide -->
             <!-- Slide -->
             <div class="slide">
-                <img src="our_team/files/images/team_img8.jpg" alt="">
+                <div class="image_and_overlay_container">
+                    <img src="our_team/files/images/team_img8.jpg" alt="">
+                    <div class="overlay">
+                        <div class="overlay_icons">
+                            <a class="social_icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social_icon" href="#"><i class="fab fa-google"></i></a>
+                        </div>    
+                    </div>
+                </div>
                 <div class="team_member_name">
                     Member Name
                 </div>
