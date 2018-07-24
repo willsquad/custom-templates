@@ -22,7 +22,7 @@
             <div class="description">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis labore perferendis deleniti iusto consequatur quis!</p>
             </div>
-            <div class="read_more"><a href="#">Read More</a></div>
+            <div class="read_more"><a href="solutions_subsection.php">Read More</a></div>
         </div>
         <!-- Offers Div -->
 
