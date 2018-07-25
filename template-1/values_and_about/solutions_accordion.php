@@ -5,7 +5,7 @@
 </style>
 
 
-<div class="our_values col-12" style="margin-top: 45px">
+<div class="our_values col-12" style="margin-top: 45px; padding-right: 0px;">
 
     <!-- Accordion Element -->
     <div class="accordion">

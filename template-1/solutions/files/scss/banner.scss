@@ -9,6 +9,10 @@
     align-items: center;
     justify-content: center;
 
+    @media (max-width: 767px) {
+        height: 300px;
+    }
+
     .banner_text {
         margin-top: 70px;
         h2 {
@@ -17,6 +21,10 @@
             font-family: 'Poppins';
             font-weight: 600;
             font-size: 50px;
+
+            @media (max-width: 767px) {
+                font-size: 35px;
+            }
         }
 
         .breadcrumb {

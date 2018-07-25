@@ -3,7 +3,7 @@
     <!-- lhs_menu -->
     <div class="lhs_menu">
         <a class="lhs_menu_element">All Services</a>
-        <a class="lhs_menu_element">Subsection #1</a>
+        <a class="lhs_menu_element active">Subsection #1</a>
         <a class="lhs_menu_element">Subsection #2</a>
         <a class="lhs_menu_element">Subsection #3</a>
         <a class="lhs_menu_element">Subsection #4</a>
