@@ -27,14 +27,14 @@
 
 
         <div class="row">
-            <div class="contact_us_banner_container col-12 col-md-5 col-lg-5">
+            <div class="contact_us_banner_container col-12 col-lg-5">
                 <div class="contact_us_banner">
                     <h4 class="margin_bottom_15">Do you have any questions<br>or queries?<br></h4>
                     <h4 class="font_28 margin_bottom_30">Get A Free <span>Consultation</span> With Our Agent</h4>
                     <p><a data-animation="animated fadeInUp" href="#" class="contact_button">Contact us</a></p>
                 </div>
             </div>
-            <div class="text_content col-12 col-md-7 col-lg-7">
+            <div class="text_content col-12 col-lg-7">
                 <h4>Third Heading</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio officia beatae adipisci blanditiis voluptates? Porro numquam eius incidunt optio quisquam quam suscipit vitae? Dolores beatae laboriosam excepturi tempora, nemo similique.</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quisquam atque laudantium perferendis placeat ipsa aperiam. Provident quia voluptas nihil error eveniet facere sapiente iusto quae hic veniam nulla ea eum, ullam in aliquam eius nesciunt ducimus repellat placeat alias.</p>
@@ -45,8 +45,7 @@
         <!-- Accordion -->
         <div class="row">
             <?php include('values_and_about/solutions_accordion.php'); ?>
-        </div>
-        
+        </div>       
         <!-- Accordion -->
         
 

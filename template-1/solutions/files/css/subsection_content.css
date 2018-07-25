@@ -120,7 +120,7 @@
   padding: 72px 73px 65px 45px;
   background-size: cover;
   width: 95%;
-  height: 400px;
+  height: auto;
   background-size: cover;
 }
 @media (max-width: 767px) {
@@ -162,6 +162,11 @@
   background: #d5b157;
   padding: 12px 30px;
   text-transform: uppercase;
+}
+@media (max-width: 1075px) {
+  #subsection_content .subsection_rhs .contact_us_banner .contact_button {
+    padding: 12px 20px;
+  }
 }
 
 /*# sourceMappingURL=subsection_content.css.map */
