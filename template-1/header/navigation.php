@@ -14,7 +14,7 @@
             <div class="navigation__content__rhs__menu">
                 <a href="index.php">Home</a>
                 <a href="solutions.php">Solutions</a>
-                <a href="#">About Us</a>
+                <a href="about-us.php">About Us</a>
                 <a href="#">Projects</a>
                 <a href="#">News</a>
                 <a href="#">Contact Us</a>

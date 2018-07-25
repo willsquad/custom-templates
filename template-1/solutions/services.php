@@ -1,5 +1,5 @@
 <style>
-    <?php include('files/css/what_we_offer.css'); ?>
+    <?php include('files/css/services.css'); ?>
 </style>
 
 <!-- what_we_offer -->
@@ -22,7 +22,7 @@
             <div class="description">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis labore perferendis deleniti iusto consequatur quis!</p>
             </div>
-            <div class="read_more"><a href="solutions_subsection.php">Read More</a></div>
+            <div class="read_more"><a href="solutions-subsection.php">Read More</a></div>
         </div>
         <!-- Offers Div -->
 
@@ -37,7 +37,7 @@
             <div class="description">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis labore perferendis deleniti iusto consequatur quis!</p>
             </div>
-            <div class="read_more"><a href="#">Read More</a></div>
+            <div class="read_more"><a href="solutions-subsection.php">Read More</a></div>
         </div>
         <!-- Offers Div -->
 
@@ -52,7 +52,7 @@
             <div class="description">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis labore perferendis deleniti iusto consequatur quis!</p>
             </div>
-            <div class="read_more"><a href="#">Read More</a></div>
+            <div class="read_more"><a href="solutions-subsection.php">Read More</a></div>
         </div>
         <!-- Offers Div -->
 
@@ -67,7 +67,7 @@
             <div class="description">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis labore perferendis deleniti iusto consequatur quis!</p>
             </div>
-            <div class="read_more"><a href="#">Read More</a></div>
+            <div class="read_more"><a href="solutions-subsection.php">Read More</a></div>
         </div>
         <!-- Offers Div -->
 
@@ -82,7 +82,7 @@
             <div class="description">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis labore perferendis deleniti iusto consequatur quis!</p>
             </div>
-            <div class="read_more"><a href="#">Read More</a></div>
+            <div class="read_more"><a href="solutions-subsection.php">Read More</a></div>
         </div>
         <!-- Offers Div -->
 
@@ -97,13 +97,9 @@
             <div class="description">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis labore perferendis deleniti iusto consequatur quis!</p>
             </div>
-            <div class="read_more"><a href="#">Read More</a></div>
+            <div class="read_more"><a href="solutions-subsection.php">Read More</a></div>
         </div>
         <!-- Offers Div -->
-
-
-       
-
     </div>
     <!-- What we offer -->
 </div>

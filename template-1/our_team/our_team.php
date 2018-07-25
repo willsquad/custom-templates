@@ -199,5 +199,5 @@
 </div>
 
 <script>
-    <?php // include('files/js/our_team.js'); ?>
+    <?php include('files/js/our_team.js'); ?>
 </script>
