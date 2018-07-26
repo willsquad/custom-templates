@@ -2,7 +2,7 @@
     <?php include('files/css/about.css'); ?>
 </style>
 
-<!-- Subsection content -->
+<!-- About Page content -->
 <div id="about_page_container">
 
     <!-- About page intro -->
@@ -25,4 +25,4 @@
     <!-- Clients -->
 
 </div>
-<!-- Subsection content -->
+<!-- About Page content -->
