@@ -18,7 +18,11 @@
         include('our_team/our_team.php'); 
         echo '<style>#our_team { background: #fff;}</style>';
     ?>
-    <!-- Our Team -->       
+    <!-- Our Team --> 
+    
+    <!-- Clients -->
+    <?php include('about/clients.php'); ?>
+    <!-- Clients -->
 
 </div>
 <!-- Subsection content -->
