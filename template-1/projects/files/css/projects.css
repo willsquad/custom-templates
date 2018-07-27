@@ -12,5 +12,52 @@
     padding: 50px 0px;
   }
 }
+#projects .filters-button-group {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#projects .filters-button-group .button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 9px 0px;
+  color: #c1c1c1;
+  display: block;
+  line-height: 25px;
+  box-sizing: border-box;
+  border-bottom: transparent;
+  border-bottom: 2px solid transparent;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: poppins;
+  margin-right: 45px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+@media (max-width: 767px) {
+  #projects .filters-button-group .button {
+    font-size: 14px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+  }
+}
+#projects .filters-button-group .button.is-checked {
+  color: #5db5ff;
+  border-bottom: 2px solid #5db5ff;
+}
+#projects .projects_grid {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 100%;
+  min-height: 75vh;
+}
+#projects .projects_grid .element-item {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=projects.css.map */
