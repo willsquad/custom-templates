@@ -15,9 +15,9 @@
                 <a href="index.php">Home</a>
                 <a href="solutions.php">Solutions</a>
                 <a href="about-us.php">About Us</a>
-                <a href="#">Projects</a>
-                <a href="#">News</a>
-                <a href="#">Contact Us</a>
+                <a href="projects.php">Projects</a>
+                <a href="news.php">News</a>
+                <a href="contact-us.php">Contact Us</a>
             </div>
 
             <div class="navigation__content__rhs__search d-flex">
