@@ -9,7 +9,20 @@
         <!-- News LHS End -->
 
         <!-- News RHS -->
-        <?php include('news_content_rhs.php') ?>
+        <div class="news_rhs col-12 col-md-8 col-lg-9">
+            <!-- News Story -->
+            <?php include('news_story_div.php') ?>
+            <!-- News Story -->
+            <!-- News Story -->
+            <?php include('news_story_div.php') ?>
+            <!-- News Story -->
+            <!-- News Story -->
+            <?php include('news_story_div.php') ?>
+            <!-- News Story -->
+            <!-- News Story -->
+            <?php include('news_story_div.php') ?>
+            <!-- News Story -->
+        </div>
         <!-- News RHS End -->
     </div>
 </div>
