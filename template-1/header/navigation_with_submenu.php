@@ -22,6 +22,13 @@
                 <ul class="navigation__content__rhs__menu">
                     <li>
                         <a href="index.php">Home</a>
+                        <ul class="navigation__content__rhs__menu__submenu">
+                            <li><a href="index.php">Home 1</a></li>
+                            <li><a href="index.php">Home 2</a></li>
+                            <li><a href="index.php">Home 3</a></li>
+                            <li><a href="index.php">Home 4</a></li>
+                            <li><a href="index.php">Home 5</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="solutions.php">Solutions</a>
