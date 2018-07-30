@@ -1,4 +1,4 @@
-<div id="awards_section">
+<div id="awards_section" >
         <div class="row max_width">
             
         <div class="col-lg-4 col-12 awards_lhs">
