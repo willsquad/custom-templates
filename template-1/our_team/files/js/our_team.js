@@ -96,6 +96,8 @@ $(document).ready(function(){
       } else if ($(this).is(".clients_slide_container")){
         $(this).slick({
             dots:false,
+            prevArrow: false,
+            nextArrow: false,
             initialSlide: 0,
             slidesToShow: 6,
             slidesToScroll: 1,

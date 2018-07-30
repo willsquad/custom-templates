@@ -28,7 +28,7 @@
 }
 @media (max-width: 767px) {
   #about .about_rhs {
-    padding-left: 0px;
+    padding-left: 15px;
   }
 }
 #about .about_rhs h3 {
@@ -87,6 +87,12 @@
 #awards_section .awards_lhs img {
   height: 350px;
   object-fit: cover;
+}
+@media (max-width: 991px) {
+  #awards_section .awards_lhs img {
+    width: 100%;
+    margin-bottom: 45px;
+  }
 }
 #awards_section .awards_rhs h4 {
   margin-bottom: 9px;
