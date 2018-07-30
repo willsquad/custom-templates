@@ -5,11 +5,11 @@
 <!-- banner -->
 <div id="banner" class="col-12">
     <div class="banner_text">
-        <h2>Services</h2>
+        <h2>Solutions</h2>
         <div class="breadcrumb">
             <a href="index.php">Home</a>
             <i class="fas fa-angle-right"></i>
-            <span>Services</span>
+            <span>Solutions</span>
         </div>
     </div>
 </div>

@@ -20,10 +20,15 @@
                 <a href="contact-us.php">Contact Us</a> -->
 
                 <ul class="navigation__content__rhs__menu">
-                    <li><a href="index.php">Home</a></li>
+                    <li>
+                        <a href="index.php">Home</a>
+                    </li>
                     <li>
                         <a href="solutions.php">Solutions</a>
                         <ul class="navigation__content__rhs__menu__submenu">
+                            <li><a href="solutions-subsection.php">Subsection</a></li>
+                            <li><a href="solutions-subsection.php">Subsection</a></li>
+                            <li><a href="solutions-subsection.php">Subsection</a></li>
                             <li><a href="solutions-subsection.php">Subsection</a></li>
                         </ul>
                     </li>

@@ -34,15 +34,32 @@
                     display: inline-block;
                     position: relative;
                     padding: 20px 0px;
+                    transition: all 0.3s;
 
                     @media (max-width: 767px) {
                         display: block;
-                        padding: 0px 0px;
+                        padding: 0px 0px;             
+                    }
+
+                    &:hover {
+                        @media (max-width: 767px) {
+                            background-color: darken(#f8d24b, 10%);
+
+                            /* & > ul {
+                                opacity: 1;
+                                visibility: visible;
+                                position: relative;
+                                display: block;
+                                top: 0px;
+                                left: 20px;
+                                box-shadow: none;
+                            } */
+                        }
                     }
 
                     &:hover {
 
-                        @media (min-width: 768px) {
+                         @media (min-width: 768px) {
                             & > ul {
                                 opacity: 1;
                                 visibility: visible;

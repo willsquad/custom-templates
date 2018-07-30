@@ -28,11 +28,26 @@
   display: inline-block;
   position: relative;
   padding: 20px 0px;
+  transition: all 0.3s;
 }
 @media (max-width: 767px) {
   .navigation__content__rhs__menu > li {
     display: block;
     padding: 0px 0px;
+  }
+}
+@media (max-width: 767px) {
+  .navigation__content__rhs__menu > li:hover {
+    background-color: #f6c61a;
+    /* & > ul {
+        opacity: 1;
+        visibility: visible;
+        position: relative;
+        display: block;
+        top: 0px;
+        left: 20px;
+        box-shadow: none;
+    } */
   }
 }
 @media (min-width: 768px) {
