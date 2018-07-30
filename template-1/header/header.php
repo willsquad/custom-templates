@@ -10,7 +10,7 @@
         <!-- Top Bar -->
 
         <!-- Navigation -->
-        <?php include('navigation.php'); ?>
+        <?php include('navigation_with_submenu.php'); ?>
         <!-- Navigation -->
 
         <!-- Search Overlay -->

@@ -6,7 +6,7 @@
     <div class="navigation__content max_width d-flex justify-content-between align-items-center">
         <div class="navigation__content__lhs d-flex align-items-center">
             <div class="logo">
-                Logo
+                <a href="index.php">Logo</a>
             </div>
         </div>
         <div class="navigation__content__rhs d-flex align-items-center">

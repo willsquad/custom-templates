@@ -19,7 +19,30 @@
     flex-grow: 1;
   }
 }
-.navigation__content__rhs__menu a {
+.navigation__content__rhs__menu {
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.navigation__content__rhs__menu > li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  padding: 20px 0px;
+}
+@media (max-width: 767px) {
+  .navigation__content__rhs__menu > li {
+    display: block;
+    padding: 0px 0px;
+  }
+}
+@media (min-width: 768px) {
+  .navigation__content__rhs__menu > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translate3d(0px, 0, 0);
+  }
+}
+.navigation__content__rhs__menu > li > a {
   font-family: 'Poppins';
   font-weight: 500;
   font-size: 16px;
@@ -31,14 +54,53 @@
   text-decoration: none;
   border-bottom: 2px solid transparent;
   transition: all 0.3s ease;
+  display: block;
 }
-.navigation__content__rhs__menu a:hover {
+.navigation__content__rhs__menu > li > a:hover {
   border-bottom: 2px solid #f8d24b;
 }
 @media (max-width: 991px) {
-  .navigation__content__rhs__menu a {
+  .navigation__content__rhs__menu > li > a {
     margin: 0 10px;
   }
+}
+@media (max-width: 767px) {
+  .navigation__content__rhs__menu > li > a {
+    color: #242424;
+    display: block;
+    padding: 15px 15px;
+    font-weight: 600;
+  }
+}
+.navigation__content__rhs__menu > li > ul {
+  position: absolute;
+  padding-left: 0px;
+  transition: all .4s ease;
+  background-color: #f8d24b;
+  transform: translate3d(-20px, 0, 0);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
+  top: 80px;
+  left: 15px;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+}
+.navigation__content__rhs__menu > li > ul > li {
+  list-style: none;
+  border-bottom: 1px solid #c3a554;
+}
+.navigation__content__rhs__menu > li > ul > li > a {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 15px;
+  color: #242424;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  margin: 0px 0px;
+  padding: 15px 20px;
+  text-decoration: none;
+  width: 225px;
+  display: block;
 }
 @media (max-width: 767px) {
   .navigation__content__rhs__menu {
@@ -93,4 +155,4 @@
 
 /* Navigation */
 
-/*# sourceMappingURL=navigation.css.map */
+/*# sourceMappingURL=navigation_with_submenu.css.map */

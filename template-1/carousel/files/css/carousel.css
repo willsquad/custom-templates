@@ -63,7 +63,7 @@
 }
 @media (max-width: 767px) {
   #carousel .carousel_slide .carousel_text_div .text h1 {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 45px;
   }
 }
@@ -84,7 +84,7 @@
 }
 @media (max-width: 767px) {
   #carousel .carousel_slide .carousel_text_div .text p {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 #carousel .carousel_slide .carousel_text_div .text .button_div a {
