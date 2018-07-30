@@ -2,7 +2,8 @@ $(document).ready(function(){
     // init Isotope
     var $grid = $('.grid').isotope({
         itemSelector: '.element-item',
-        layoutMode: 'fitRows'
+        layoutMode: 'fitRows',
+        transitionDuration: '0.3s'
     });
     
     // bind filter button click
