@@ -74,7 +74,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 100000;
+  z-index: 100;
 }
 #projects .projects_grid .image_and_overlay_container .overlay .project_name {
   height: 75px;

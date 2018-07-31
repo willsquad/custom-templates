@@ -43,17 +43,7 @@
 
                     &:hover {
                         @media (max-width: 767px) {
-                            background-color: darken(#f8d24b, 10%);
-
-                            /* & > ul {
-                                opacity: 1;
-                                visibility: visible;
-                                position: relative;
-                                display: block;
-                                top: 0px;
-                                left: 20px;
-                                box-shadow: none;
-                            } */
+                            //background-color: darken(#f8d24b, 10%);
                         }
                     }
 
@@ -154,6 +144,72 @@
                     }
                     
                 }
+
+                /* Mobile Nav */
+                &.mobile_nav {
+                    .menu_element_li {
+                        position: relative;
+                        border-bottom: 1px solid #c3a554;
+
+                        &:last-child {
+                            border-bottom: none;
+                        }
+
+                        .menu_expand_icon {
+                            /* position: absolute;
+                            color: #242424;
+                            right: 15px;
+                            top: 15px; */
+
+                            position: absolute;
+                            color: #242424;
+                            right: 0px;
+                            top: 0px;
+                            display: flex;
+                            padding: 16px;
+                            //background-color: #c3a554;
+                            cursor: pointer;
+
+                            &.active { 
+                                //background-color: #c3a554;
+                                background-color: #E1BF60;
+                            }
+                        }
+
+                        .navigation__content__rhs__menu__submenu {
+                            //background-color: #c3a554;
+                            background-color: #E1BF60;
+                            position: relative;
+                            left: 0px;
+                            right: 0px;
+                            transform: none;
+                            z-index: 10000;
+                            top: 0px;
+                            box-shadow: none;
+                            opacity: 1;
+                            visibility: visible;
+                            display: none;
+                            transition: none;
+
+                            a {
+                                color: #fff;
+                                padding-left: 35px;
+                            }
+
+                            &.active {
+                                display: block;
+                            }
+
+                            & > li {
+                                border-bottom: 1px solid #c1a24a;
+                                &:last-child {
+                                    border-bottom: none;
+                                }
+                            }
+                        }
+                    }
+                }
+                 /* Mobile Nav */
                 
             }
 
