@@ -23,54 +23,53 @@
     <div class="container-fluid">
         <!-- START OF MAIN ROW -->
         <div class="row">
-        <!-- Header -->
-        <?php include('header/header.php'); ?>
-        <!-- Header -->
+            <!-- Header -->
+            <?php include('header/header.php'); ?>
+            <!-- Header -->
 
-        <!-- Carousel -->
-        <?php include('carousel/carousel.php'); ?>
-        <!-- Carousel -->
+            <!-- Carousel -->
+            <?php include('carousel/carousel.php'); ?>
+            <!-- Carousel -->
 
-        <!-- Get Quote -->
-        <?php include('get_quote/get_quote.php'); ?>
-        <!-- Get Quote -->
+            <!-- Get Quote -->
+            <?php include('get_quote/get_quote.php'); ?>
+            <!-- Get Quote -->
 
-        <!-- Our Mission -->
-        <?php include('our_mission/our_mission.php'); ?>
-        <!-- Our Mission -->
-        
-        <!-- What we offer -->
-        <?php include('what_we_offer/what_we_offer.php'); ?>
-        <!-- What we offer -->
-
-        <!-- Our core values & About us -->
-        <?php include('values_and_about/values_and_about.php'); ?>
-        <!-- Our core values & About us -->
-
-        <!-- Our Projects -->
-        <?php include('our_projects/our_projects.php'); ?>
-        <!-- Our Projects -->      
-
-        <!-- Our Team -->
-        <?php include('our_team/our_team.php'); ?>
-        <!-- Our Team -->      
-
-        <!-- Our Stats -->
-        <?php include('our_stats/our_stats.php'); ?>
-        <!-- Our Stats -->      
-        
-        <!-- Latest News -->
-        <?php include('latest_news/latest_news.php'); ?>
-        <!-- Latest News -->     
-        
-        <!-- Contact Us Band -->
-        <?php include('contact_us_band/contact_us_band.php'); ?>
-        <!-- Contact Us Band -->
-        
-        <!-- Footer -->
-        <?php include('footer/footer.php'); ?>
-        <!-- Footer -->
+            <!-- Our Mission -->
+            <?php include('our_mission/our_mission.php'); ?>
+            <!-- Our Mission -->
             
+            <!-- What we offer -->
+            <?php include('what_we_offer/what_we_offer.php'); ?>
+            <!-- What we offer -->
+
+            <!-- Our core values & About us -->
+            <?php include('values_and_about/values_and_about.php'); ?>
+            <!-- Our core values & About us -->
+
+            <!-- Our Projects -->
+            <?php include('our_projects/our_projects.php'); ?>
+            <!-- Our Projects -->      
+
+            <!-- Our Team -->
+            <?php include('our_team/our_team.php'); ?>
+            <!-- Our Team -->      
+
+            <!-- Our Stats -->
+            <?php include('our_stats/our_stats.php'); ?>
+            <!-- Our Stats -->      
+            
+            <!-- Latest News -->
+            <?php include('latest_news/latest_news.php'); ?>
+            <!-- Latest News -->     
+            
+            <!-- Contact Us Band -->
+            <?php include('contact_us_band/contact_us_band.php'); ?>
+            <!-- Contact Us Band -->
+            
+            <!-- Footer -->
+            <?php include('footer/footer.php'); ?>
+            <!-- Footer --> 
         </div>
         <!-- END OF MAIN ROW -->
     </div>

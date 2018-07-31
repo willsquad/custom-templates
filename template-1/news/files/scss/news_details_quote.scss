@@ -1,0 +1,39 @@
+/* News story details */
+.news_story_details_quote {
+    width: 100%;
+    float: left;
+    background: #f5f4f4;
+    border-radius: 5px;
+    padding: 24px 31px 37px;
+    margin: 25px 0px 50px;
+
+    display: flex;
+    @media (max-width: 500px) {
+        flex-wrap: wrap;
+    }
+    
+    .quote_icon {
+        margin-right: 30px;
+        i{
+            transform: rotate(180deg);
+            color: #D0D0D0;
+            font-size: 75px;
+        }
+    }
+
+    .quote_text {
+
+        .quote_by {
+            font-size: 15px;
+            color: #5db5ff;
+            font-style: italic;
+            font-weight: 300;
+            float: right;
+            font-family: poppins;
+        }
+
+    }
+
+    
+}
+/* News stories */

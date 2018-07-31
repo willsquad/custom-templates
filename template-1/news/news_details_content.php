@@ -11,7 +11,7 @@
         <!-- News RHS -->
         <div class="news_rhs col-12 col-md-8 col-lg-9">
             <!-- News Story Details -->
-            <?php include('news_story_details_div.php') ?>
+            <?php include('news_details_div.php') ?>
             <!-- News Story Details -->
         </div>
         <!-- News RHS End -->
