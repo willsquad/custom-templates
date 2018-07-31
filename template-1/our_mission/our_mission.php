@@ -8,11 +8,7 @@
         <div class="our_mission_lhs col-12 col-lg-4">
 
             <!-- Our mission statement div-->
-            <div class="our_mission_statement_div">
-                <h3>Our Mission</h3>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis civelit sed quia non qui dolorem ipsum quia olor sit amet, consectetu ipsum quia dolor sit amet, consectetur quia olor.</p>
-                <a href="#">Read More</a>
-            </div>
+            <?php include('our_mission_main_lhs.php');?>
             <!-- Our mission statement div-->
 
         </div>
