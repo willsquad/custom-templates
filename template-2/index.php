@@ -24,7 +24,26 @@
     <div class="container-fluid">
         <!-- START OF MAIN ROW -->
         <div class="row">
-           
+            <!-- Header -->
+            <?php include('header/header.php'); ?>
+            <!-- Header -->
+
+            <!-- Carousel -->
+            <?php include('carousel/carousel.php'); ?>
+            <!-- Carousel -->
+
+            <!-- What we provide -->
+            <?php include('what_we_provide/what_we_provide.php'); ?>
+            <!-- What we provide --> 
+         
+            
+            <!-- Contact Us Band -->
+            <?php include('contact_us_band/contact_us_band.php'); ?>
+            <!-- Contact Us Band -->
+            
+            <!-- Footer -->
+            <?php include('footer/footer.php'); ?>
+            <!-- Footer --> 
         </div>
         <!-- END OF MAIN ROW -->
     </div>
