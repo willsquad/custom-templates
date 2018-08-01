@@ -1,3 +1,7 @@
+<style>
+    <?php include('files/css/clients.css'); ?>
+</style>
+
 <div id="clients_slider">
     <div class="max_width">
         <div class="slider_container clients_slide_container">

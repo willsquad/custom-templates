@@ -1,3 +1,7 @@
+<style>
+    <?php include('files/css/awards.css'); ?>
+</style>
+
 <div id="awards_section" >
         <div class="row max_width">
             

@@ -1,3 +1,7 @@
+<style>
+    <?php include('files/css/about_intro.css'); ?>
+</style>
+
 <div id="about" >
         <div class="row max_width">
             <div class="about_lhs col-12 col-md-5 col-lg-4">
