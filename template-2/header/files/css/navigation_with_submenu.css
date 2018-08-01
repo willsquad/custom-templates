@@ -166,7 +166,6 @@
   transition: none;
 }
 .navigation__content__rhs__menu.mobile_nav .menu_element_li .navigation__content__rhs__menu__submenu a {
-  color: #fff;
   padding-left: 35px;
 }
 .navigation__content__rhs__menu.mobile_nav .menu_element_li .navigation__content__rhs__menu__submenu.active {

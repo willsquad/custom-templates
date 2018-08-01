@@ -28,9 +28,9 @@
   }
 }
 #what_we_provide .what_we_provide_rhs h3 {
-  line-height: 41px;
+  line-height: 40px;
   font-weight: 600;
-  font-size: 29px;
+  font-size: 28px;
   letter-spacing: 0px;
   color: #1d2e44;
   margin-bottom: 32px;
@@ -63,6 +63,7 @@
 }
 #what_we_provide .what_we_provide_rhs .bottom_icons h5 {
   margin-bottom: 5px;
+  font-size: 19px;
 }
 #what_we_provide .what_we_provide_rhs .bottom_icons p {
   font-size: 16px;

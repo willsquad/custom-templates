@@ -13,6 +13,15 @@
     padding: 50px 0px;
   }
 }
+@media (max-width: 767px) {
+  #values_and_about .testimonial_div {
+    margin-top: 60px;
+  }
+}
+#values_and_about .testimonial_div .section_title {
+  position: relative;
+  left: -15px;
+}
 
 /**** values_and_about ****/
 

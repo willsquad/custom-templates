@@ -44,7 +44,7 @@
             <!-- What we offer -->
 
             <!-- Our core values & About us -->
-            <?php include('values_and_about/values_and_about.php'); ?>
+            <?php include('values_and_testimonial/values_and_testimonial.php'); ?>
             <!-- Our core values & About us -->
 
             <!-- Our Projects -->

@@ -4,6 +4,7 @@
 </style>
 
 <div class="col-12 col-md-5 testimonial_div">
+<h2 class="section_title">Testimonials</h2>
     <div class="row top_row">
         <div class="image_container"><img src="about/files/images/testi_img1.png" alt=""></div>
         <div class="user_details d-flex flex-column justify-content-center">

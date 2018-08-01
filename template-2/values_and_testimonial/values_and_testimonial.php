@@ -8,9 +8,9 @@
         <!-- Our Core Values -->
         <?php include('our_values.php') ?>
         <!-- Our Core Values -->
-
+        
         <!-- About Us -->
-        <?php include('about_us.php') ?>
+        <?php include('about/testimonial_div.php') ?>
         <!-- About Us -->
 
     </div>

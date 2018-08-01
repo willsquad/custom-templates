@@ -20,7 +20,7 @@
         <div class="row accordion__content active animated fadeIn">
             <div class="flex_container d-flex justify-content-between flex-wrap">
                 <div class="col-12 col-md-3 accordion__content__lhs">
-                    <img src="values_and_about/files/images/core_img1.jpg" alt="">
+                    <img src="values_and_testimonial/files/images/core_img1.jpg" alt="">
                 </div>
                 <div class="col-12 col-md-9 accordion__content__rhs">
                     <div class="accordion__content__rhs__title">
@@ -45,7 +45,7 @@
         <div class="row accordion__content animated fadeIn">
             <div class="flex_container d-flex justify-content-between flex-wrap">
                 <div class="col-12 col-md-3 accordion__content__lhs">
-                    <img src="values_and_about/files/images/core_img1.jpg" alt="">
+                    <img src="values_and_testimonial/files/images/core_img1.jpg" alt="">
                 </div>
                 <div class="col-12 col-md-9 accordion__content__rhs">
                     <div class="accordion__content__rhs__title">
@@ -71,7 +71,7 @@
         <div class="row accordion__content animated fadeIn">
             <div class="flex_container d-flex justify-content-between flex-wrap">
                 <div class="col-12 col-md-3 accordion__content__lhs">
-                    <img src="values_and_about/files/images/core_img1.jpg" alt="">
+                    <img src="values_and_testimonial/files/images/core_img1.jpg" alt="">
                 </div>
                 <div class="col-12 col-md-9 accordion__content__rhs">
                     <div class="accordion__content__rhs__title">

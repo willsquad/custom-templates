@@ -10,5 +10,16 @@
     @media (max-width: 767px) {
         padding: 50px 0px;
     }
+
+    .testimonial_div {
+        @media (max-width: 767px) {
+            margin-top:60px;
+        }
+
+        .section_title {
+            position: relative;
+            left: -15px;
+        }
+    }
 }
 /**** values_and_about ****/
