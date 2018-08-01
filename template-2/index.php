@@ -36,7 +36,28 @@
             <?php include('what_we_provide/what_we_provide.php'); ?>
             <!-- What we provide --> 
             
-             
+            <!-- What we offer -->
+            <?php 
+                include('solutions/services.php'); 
+                echo '<style>#what_we_offer {background-color: #f1f2f4;}</style>'
+            ?>
+            <!-- What we offer -->
+
+            <!-- Our core values & About us -->
+            <?php include('values_and_about/values_and_about.php'); ?>
+            <!-- Our core values & About us -->
+
+            <!-- Our Projects -->
+            <?php include('our_projects/our_projects.php'); ?>
+            <!-- Our Projects -->          
+            
+            <!-- Latest News -->
+            <?php include('latest_news/latest_news.php'); ?>
+            <!-- Latest News -->     
+
+            <!-- Clients slider -->
+            <?php include('about/clients.php'); ?>
+            <!-- Clients slider -->    
 
             <!-- Map -->
             <?php include('contact/contact_map.php'); ?>

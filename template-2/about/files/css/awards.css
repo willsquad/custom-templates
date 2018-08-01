@@ -1,0 +1,43 @@
+/* About page Awards section */
+#awards_section {
+  background: url("about/files/images/about_award_bg.jpg") no-repeat center top;
+  background-size: cover;
+  padding: 100px 15px 0px;
+}
+@media (max-width: 991px) {
+  #awards_section {
+    padding: 75px 15px 0;
+  }
+}
+@media (max-width: 767px) {
+  #awards_section {
+    padding: 50px 15px 0;
+  }
+}
+#awards_section .awards_lhs img {
+  height: 350px;
+  object-fit: cover;
+}
+@media (max-width: 991px) {
+  #awards_section .awards_lhs img {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+}
+#awards_section .awards_rhs h4 {
+  margin-bottom: 9px;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 600;
+}
+#awards_section .awards_rhs p {
+  color: #9fa7b2;
+  font-size: 16px;
+}
+#awards_section .awards_rhs .mission_sub_section {
+  margin-bottom: 70px;
+}
+
+/* About page Awards section */
+
+/*# sourceMappingURL=awards.css.map */

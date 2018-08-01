@@ -1,0 +1,210 @@
+/**** Our Projects  ****/
+#our_projects {
+    background: url('our_projects/files/images/project_bg.jpg') no-repeat center top;
+    background-size: cover;
+    padding: 100px 0px 0px;
+
+    @media (max-width: 991px) {
+        padding: 75px 0px 0px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 50px 0px 0px;
+    }
+
+    .section_title {
+        color: #fff;
+        font-size: 34px;
+        margin-bottom: 35px;
+        font-weight: 600;
+        position: relative;
+
+        &::after {
+            width: 35px;
+        position: absolute;
+        height: 2px;
+        background: #fff;
+        content: '';
+        bottom: 6px;
+        margin-left: 14px;
+        }
+
+        @media (max-width: 991px) {
+            font-size: 30px;
+        }
+    }
+
+        .projects_title_description_row {
+            padding: 0px 15px;
+            position: relative;
+        }
+
+        .description {
+            margin-bottom: 45px;
+            p {
+                color: #a7aaac;
+            }
+        }
+
+        .projects_slider_container {
+            @media only screen and (max-width: 767px) {
+                margin-top: 50px;
+            }
+        }
+
+        /* Slick slider */
+
+        .image_slider_container {
+            width: 100%;
+        }
+
+        .image_and_overlay_container {
+            position: relative;
+            overflow: hidden;
+            max-height: 320px;
+
+            .overlay {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                height: 100%;
+                //background-color: rgba(7, 50, 98, .75);
+                left: 0px;
+                
+                transition: all 0.3s ease;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 100000;
+
+                .project_name {
+                    height: 75px;
+                    position: absolute;
+                    bottom: 0px;
+                    background-color: #f8d24b;
+                    transform: translate3d(0,100%,0);
+                    transition: all 0.3s ease;
+                    left:0px;
+                    right: 0px;
+                    color: #000;
+                    font-family: poppins;
+                    font-weight: 600;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                }
+
+                .view_project {
+                    position: relative;
+                    top: 0%;
+
+                    transform: translate3d(0, 0px, 0) translateY(-50%);
+                    opacity: 0;
+
+                    background-color: rgba(0,0,0,0.75);
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #fff;
+                    width: 164px;
+                    line-height: 49px;
+                    border: 1px solid #222;
+                    border-radius: 3px;
+                    float: none;
+                    display: inline-block;
+                    font-family: poppins;
+                    margin: 0px;
+                    padding: 0px;
+                    text-align: center;
+                    transition: all .4s ease;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .image_and_overlay_container:hover .view_project {
+            opacity: 1;
+        }
+
+        .image_and_overlay_container:hover .project_name {
+            transform: translate3d(0,0,0);
+        }
+
+        .slick-slide {
+            max-height: 320px;
+        }
+
+        .slick-slide img {
+            width: 100%;
+            max-height: 320px;
+        }
+
+        .prev-slide-project {
+            position: absolute;
+            right: 75px;
+
+            @media (max-width: 767px) {
+                right: 52%;
+                bottom: -25px;
+            }
+
+            @media (max-width: 500px) {
+                right: 53%;
+                bottom: -25px;
+            }
+        }
+
+        .next-slide-project {
+            position: absolute;
+            right: 15px;
+
+            @media (max-width: 767px) {
+                right: 40%;
+                bottom: -25px;
+            }
+
+            @media (max-width: 500px) {
+                right: 38%;
+                bottom: -25px;
+            }
+        }
+
+        i.arrow_left {
+            cursor: pointer;
+            padding: 0px;
+            font-size: 40px;
+            color: #6d6e6f;
+            border: 2px solid #6d6e6f;
+            transition: all 0.3s ease;
+
+            &:hover {
+                color: #fff;
+                border: 2px solid #fff;
+            }
+        }
+
+        i.arrow_right {
+            cursor: pointer;
+            padding: 0px;
+            font-size: 40px;
+            color: #6d6e6f;  
+            border: 2px solid #6d6e6f;
+            transition: all 0.3s ease;
+            
+            &:hover {
+                color: #fff;
+                border: 2px solid #fff;
+            }
+        }
+
+    /* Slick slider */
+
+}
+
+
+
+
+/**** Our Projects  ****/
