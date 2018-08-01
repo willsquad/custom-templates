@@ -35,7 +35,12 @@
             <!-- What we provide -->
             <?php include('what_we_provide/what_we_provide.php'); ?>
             <!-- What we provide --> 
-         
+            
+             
+
+            <!-- Map -->
+            <?php include('contact/contact_map.php'); ?>
+            <!-- Map -->    
             
             <!-- Contact Us Band -->
             <?php include('contact_us_band/contact_us_band.php'); ?>
