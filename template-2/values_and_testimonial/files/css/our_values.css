@@ -46,8 +46,9 @@
   border-top: 1px solid #ddd;
 }
 .accordion__title.active {
-  background: #f4c82e;
+  background: #D5B157;
   border-top: 1px solid transparent;
+  color: #fff;
 }
 .accordion__content {
   background: none;

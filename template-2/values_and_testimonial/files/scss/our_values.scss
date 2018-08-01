@@ -47,8 +47,10 @@
         border-top: 1px solid #ddd;
 
         &.active {
-            background: #f4c82e;
+            //background: #f4c82e;
+            background: #D5B157;
             border-top: 1px solid transparent;
+            color: #fff;
         }
         &__text {
 
