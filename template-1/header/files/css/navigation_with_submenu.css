@@ -96,6 +96,9 @@
 .navigation__content__rhs__menu > li > ul > li:hover {
   background-color: #f6c61a;
 }
+.navigation__content__rhs__menu > li > ul > li:hover > a {
+  color: #000;
+}
 .navigation__content__rhs__menu > li > ul > li > a {
   font-family: 'Poppins';
   font-weight: 500;
