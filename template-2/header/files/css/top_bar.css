@@ -1,6 +1,6 @@
 /* Top Bar */
 .top_bar {
-  background-color: transparent;
+  background-color: #071726;
   height: 50px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.17);
 }
@@ -12,10 +12,14 @@
   font-family: 'Open Sans';
   letter-spacing: .03em;
   margin: 0;
+  color: #A48C4F;
 }
-.top_bar__content__lhs i {
-  margin-right: 5px;
+.top_bar__content__lhs span {
+  padding-right: 22px;
+}
+.top_bar__content__lhs span i {
   font-size: 20px;
+  margin-right: 5px;
 }
 .top_bar__content__rhs {
   font-family: 'Poppins';
@@ -27,8 +31,9 @@
   padding-left: 22px;
 }
 .top_bar__content__rhs span i {
-  font-size: 20px;
+  font-size: 15px;
   margin-right: 5px;
+  color: #A48C4F;
 }
 
 /* Top Bar */

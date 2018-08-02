@@ -9,7 +9,11 @@
             <span class="d-flex align-items-center"><i class="material-icons">mail_outline</i> info@customtheme.com</span>
         </div>
         <div class="top_bar__content__rhs d-flex align-items-center">
-            
+            <span class="d-flex align-items-center"><i class="far fa-envelope"></i></span>
+            <span class="d-flex align-items-center"><i class="fab fa-facebook-f"></i></span>
+            <span class="d-flex align-items-center"><i class="fab fa-twitter"></i></span>
+            <span class="d-flex align-items-center"><i class="fab fa-google-plus-g"></i></span>
+            <span class="d-flex align-items-center"><i class="fab fa-linkedin"></i></span>
         </div>
     </div>
 </div>

@@ -24,8 +24,8 @@
     <div class="container-fluid">
         <!-- START OF MAIN ROW -->
         <div class="row">
-            <!-- Header --
-            < ?php include('header/header.php'); ?>
+            <!-- Header -->
+            <?php include('header/header.php'); ?>
             <!-- Header -->
 
             <!-- Carousel -->

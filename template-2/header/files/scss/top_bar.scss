@@ -1,6 +1,6 @@
 /* Top Bar */
 .top_bar {
-    background-color: transparent;
+    background-color: #071726;
     height: 50px;
     border-bottom: 1px solid rgba(255,255,255,.17);
 
@@ -12,10 +12,15 @@
             font-family: 'Open Sans';
             letter-spacing: .03em;
             margin: 0;
+            color: #A48C4F;
 
-            i{
-                 margin-right: 5px;
-                 font-size: 20px;
+            span {
+                padding-right: 22px;
+
+                i {
+                    font-size: 20px;
+                    margin-right: 5px;
+                }
             }
         }
 
@@ -29,8 +34,9 @@
                 padding-left: 22px;
 
                 i {
-                    font-size: 20px;
+                    font-size: 15px;
                     margin-right: 5px;
+                    color: #A48C4F;
                 }
             }
         }

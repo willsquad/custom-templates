@@ -5,6 +5,10 @@
   color: #FFFFFF;
   border-bottom: 1px solid rgba(255, 255, 255, 0.17);
 }
+.navigation__content {
+  background: linear-gradient(to bottom, #e9c865 0%, #d0ac54 100%);
+  padding: 0px 15px;
+}
 .navigation__content__lhs .logo {
   font-size: 26px;
   text-transform: uppercase;
@@ -209,7 +213,7 @@
 }
 .navigation.sticky_header {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.85);
+  background: linear-gradient(to bottom, #e9c865 0%, #d0ac54 100%);
 }
 
 /* Navigation */

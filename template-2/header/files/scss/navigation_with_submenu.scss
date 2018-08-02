@@ -6,6 +6,9 @@
     border-bottom: 1px solid rgba(255,255,255,.17);
     &__content {
 
+        background: linear-gradient(to bottom, #e9c865 0%, #d0ac54 100%);
+        padding: 0px 15px;
+
         &__lhs {
             .logo {
                 font-size: 26px;
@@ -252,7 +255,8 @@
 
     &.sticky_header  {
         position: fixed;
-        background-color: rgba(0, 0, 0, 0.85);
+        //background-color: rgba(0, 0, 0, 0.85);
+        background: linear-gradient(to bottom, #e9c865 0%, #d0ac54 100%);
     }
 }
 /* Navigation */
