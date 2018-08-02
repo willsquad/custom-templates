@@ -2,14 +2,14 @@
 #our_projects {
     background: url('our_projects/files/images/project_bg.jpg') no-repeat center top;
     background-size: cover;
-    padding: 100px 0px 0px;
+    padding: 100px 0px 70px;
 
     @media (max-width: 991px) {
-        padding: 75px 0px 0px;
+        padding: 75px 45px ;
     }
 
     @media (max-width: 767px) {
-        padding: 50px 0px 0px;
+        padding: 50px 20px;
     }
 
     .section_title {
@@ -47,6 +47,11 @@
         }
 
         .projects_slider_container {
+
+            .slide {
+                margin-bottom: 30px;
+            }
+
             @media only screen and (max-width: 767px) {
                 margin-top: 50px;
             }

@@ -57,5 +57,5 @@
 </div>
 
 <script>
-    <?php include('files/js/carousel.js'); ?>
+    <?php // include('files/js/carousel.js'); ?>
 </script>

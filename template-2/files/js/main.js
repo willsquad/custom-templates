@@ -3,7 +3,7 @@ $(document).ready(function(){
     var sliderContainer = $(".slider_container");
   
     sliderContainer.each(function() {
-      if ($(this).is(".projects_slider_container")) {
+      /* if ($(this).is(".projects_slider_container")) {
           $(this).slick({
             prevArrow: $('.prev-slide-project'),
             nextArrow: $('.next-slide-project'),
@@ -41,7 +41,7 @@ $(document).ready(function(){
             ]
         });
       } 
-      else if ($(this).is(".team_slider_container")){
+      else  */if ($(this).is(".team_slider_container")){
         $(this).slick({
             prevArrow: $('.prev-slide-team'),
             nextArrow: $('.next-slide-team'),
