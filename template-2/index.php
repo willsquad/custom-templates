@@ -51,6 +51,10 @@
             <?php include('values_and_testimonial/values_and_testimonial.php'); ?>
             <!-- Our core values & About us --> 
             
+            <!-- Awards and Request a Free Consultation -->
+            <?php include('index_awards_and_consultation/index_awards_and_consultation.php'); ?>
+            <!-- awards and Request a Free Consultation --> 
+            
             <!-- Latest News -->
             <?php include('latest_news/latest_news.php'); ?>
             <!-- Latest News -->     
