@@ -43,13 +43,13 @@
             ?>
             <!-- What we offer -->
 
-            <!-- Our core values & About us -->
-            <?php include('values_and_testimonial/values_and_testimonial.php'); ?>
-            <!-- Our core values & About us -->
-
             <!-- Our Projects -->
             <?php include('our_projects/our_projects.php'); ?>
-            <!-- Our Projects -->          
+            <!-- Our Projects -->  
+
+            <!-- Our core values & About us -->
+            <?php include('values_and_testimonial/values_and_testimonial.php'); ?>
+            <!-- Our core values & About us --> 
             
             <!-- Latest News -->
             <?php include('latest_news/latest_news.php'); ?>

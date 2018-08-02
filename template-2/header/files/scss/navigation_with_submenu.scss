@@ -13,6 +13,8 @@
         background: linear-gradient(to bottom, #e9c865 0%, #d0ac54 100%);
         padding: 0px 10px;
         border-radius: 5px;
+        position: relative;
+        top: 35px;
 
         @media (max-width: 1200px) {
             border-radius: 0px;
@@ -20,6 +22,7 @@
 
         @media (max-width: 767px) {
             background: rgba(0, 0, 0, 0.85);
+            top: 2px;
         }
 
         &__logo {
@@ -307,6 +310,10 @@
         position: fixed;
         //background-color: rgba(0, 0, 0, 0.85);
         background: linear-gradient(to bottom, #e9c865 0%, #d0ac54 100%);
+
+        .navigation__content {
+            top: 0px;
+        }
     }
 }
 /* Navigation */
