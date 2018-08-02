@@ -39,7 +39,7 @@
 }
 @media (max-width: 600px) {
   #carousel .carousel_slide .carousel_text_div {
-    top: -70%;
+    top: -80%;
     padding: 0px 45px;
   }
 }

@@ -2,23 +2,10 @@
     <?php include('files/css/navigation_with_submenu.css'); ?>
 </style>
 
-<div class="navigation col-12 d-flex align-items-center">
+<div class="navigation d-flex align-items-center">
     <div class="navigation__content max_width d-flex justify-content-between align-items-center">
-        <div class="navigation__content__lhs d-flex align-items-center">
-            <div class="logo">
-                <a href="index.php">Logo</a>
-            </div>
-        </div>
-        <div class="navigation__content__rhs d-flex align-items-center">
-            
-            <!-- <div class="navigation__content__rhs__menu"> -->
-                <!-- <a href="index.php">Home</a>
-                <a href="solutions.php">Solutions</a>
-                <a href="about-us.php">About Us</a>
-                <a href="projects.php">Projects</a>
-                <a href="news.php">News</a>
-                <a href="contact-us.php">Contact Us</a> -->
 
+        <div class="navigation__content__rhs d-flex align-items-center">
                 <!-- Mobile Nav -->
                 <ul class="navigation__content__rhs__menu mobile_nav hidden-md-up">
                     <li class="menu_element_li">
@@ -115,12 +102,19 @@
                 </ul>
                 <!-- Desktop Nav -->
 
-            <!-- </div> -->
-
-            <div class="navigation__content__rhs__search d-flex">
+            <!-- <div class="navigation__content__rhs__search d-flex">
                 <i class="material-icons">search</i>
-            </div>
+            </div> -->
             
+        </div>
+
+         <div class="navigation__content__logo d-flex align-items-center">
+            <div class="logo hidden-sm-down get_quote_button">
+                <a href="index.php ">Get Quote</a>
+            </div>
+            <div class="logo hidden-md-up logo_xs">
+                <a href="index.php ">Logo</a>
+            </div>
         </div>
         
         <div class="nav_menu hidden-md-up d-flex">

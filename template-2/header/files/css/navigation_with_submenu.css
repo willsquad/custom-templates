@@ -1,25 +1,62 @@
 /* Navigation */
 .navigation {
-  height: 85px;
-  background-color: transparent;
+  background-color: #0A1F30;
   color: #FFFFFF;
   border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+  width: 100%;
 }
 .navigation__content {
+  height: 77px;
   background: linear-gradient(to bottom, #e9c865 0%, #d0ac54 100%);
-  padding: 0px 15px;
+  padding: 0px 10px;
+  border-radius: 5px;
 }
-.navigation__content__lhs .logo {
-  font-size: 26px;
+@media (max-width: 1200px) {
+  .navigation__content {
+    border-radius: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .navigation__content {
+    background: rgba(0, 0, 0, 0.85);
+  }
+}
+.navigation__content__logo .logo {
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
 }
-.navigation__content__lhs .logo a {
+.navigation__content__logo .logo a {
   text-decoration: none;
   color: #fff;
+  transition: all 0.3s ease;
 }
-@media (max-width: 991px) {
-  .navigation__content__lhs {
+.navigation__content__logo .logo.logo_xs {
+  font-size: 26px;
+  padding-left: 5px;
+}
+.navigation__content__logo .logo.get_quote_button {
+  background: url("header/files/images/get_quote_bg.png") no-repeat;
+  width: 175px;
+  padding: 4px 10px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.navigation__content__logo .logo.get_quote_button a {
+  padding: 12px 10px;
+}
+.navigation__content__logo .logo.get_quote_button:hover {
+  background-position: 175px;
+}
+.navigation__content__logo .logo.get_quote_button:hover a {
+  color: #48402b;
+}
+@media (max-width: 767px) {
+  .navigation__content__logo {
     flex-grow: 1;
   }
 }
@@ -33,7 +70,7 @@
   list-style: none;
   display: inline-block;
   position: relative;
-  padding: 24px 0px;
+  padding: 22px 0px;
   transition: all 0.3s;
 }
 @media (max-width: 767px) {
@@ -51,24 +88,25 @@
 }
 .navigation__content__rhs__menu > li > a {
   font-family: 'Poppins';
-  font-weight: 500;
-  font-size: 16px;
-  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 17px;
+  color: #48402b;
   letter-spacing: 0;
   text-transform: capitalize;
   margin: 0 15px;
   padding: 5px 0px;
   text-decoration: none;
-  border-bottom: 2px solid transparent;
   transition: all 0.3s ease;
   display: block;
+  text-transform: uppercase;
 }
 .navigation__content__rhs__menu > li > a:hover {
-  border-bottom: 2px solid #f8d24b;
+  color: #fff;
 }
 @media (max-width: 991px) {
   .navigation__content__rhs__menu > li > a {
     margin: 0 10px;
+    font-size: 15px;
   }
 }
 @media (max-width: 767px) {
@@ -77,16 +115,17 @@
     display: block;
     padding: 15px 15px;
     font-weight: 600;
+    font-size: 16px;
   }
 }
 .navigation__content__rhs__menu > li > ul {
   position: absolute;
   padding-left: 0px;
   transition: all .4s ease;
-  background-color: #f8d24b;
+  background-color: #e1bf60;
   transform: translate3d(-20px, 0, 0);
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
-  top: 84px;
+  top: 77px;
   left: 15px;
   display: block;
   opacity: 0;
@@ -98,7 +137,7 @@
   transition: all 0.3s ease;
 }
 .navigation__content__rhs__menu > li > ul > li:hover {
-  background-color: #f6c61a;
+  background-color: #d9ae35;
 }
 .navigation__content__rhs__menu > li > ul > li:hover > a {
   color: #000;
@@ -107,7 +146,7 @@
   font-family: 'Poppins';
   font-weight: 500;
   font-size: 15px;
-  color: #242424;
+  color: #fff;
   letter-spacing: 0;
   text-transform: capitalize;
   margin: 0px 0px;
@@ -119,10 +158,10 @@
 @media (max-width: 767px) {
   .navigation__content__rhs__menu {
     position: absolute;
-    top: 85px;
+    top: 77px;
     left: 0px;
     right: 0px;
-    background-color: #f8d24b;
+    background-color: #e1bf60;
     display: none;
   }
   .navigation__content__rhs__menu a {
@@ -153,10 +192,10 @@
   cursor: pointer;
 }
 .navigation__content__rhs__menu.mobile_nav .menu_element_li .menu_expand_icon.active {
-  background-color: #E1BF60;
+  background-color: #c3a554;
 }
 .navigation__content__rhs__menu.mobile_nav .menu_element_li .navigation__content__rhs__menu__submenu {
-  background-color: #E1BF60;
+  background-color: #c3a554;
   position: relative;
   left: 0px;
   right: 0px;
@@ -197,10 +236,12 @@
     font-size: 25px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .navigation__content__rhs__search {
     border-left: none;
     margin-right: 20px;
+    position: absolute;
+    right: 50px;
   }
 }
 .navigation__content .nav_menu {

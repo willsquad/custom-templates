@@ -9,6 +9,10 @@
         <?php include('top_bar.php'); ?>
         <!-- Top Bar -->
 
+        <!-- Header -->
+        <?php include('mid_header.php'); ?>
+        <!-- Header -->
+
         <!-- Navigation -->
         <?php include('navigation_with_submenu.php'); ?>
         <!-- Navigation -->
