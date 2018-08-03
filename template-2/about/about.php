@@ -13,6 +13,12 @@
     <?php include('about/awards.php'); ?>
     <!-- Awards section -->
 
+    <!-- Our Speciality -->
+    <?php 
+        include('about/our_speciality.php'); 
+    ?>
+    <!-- Our Speciality --> 
+
     <!-- Our Team -->
     <?php 
         include('our_team/our_team.php'); 
