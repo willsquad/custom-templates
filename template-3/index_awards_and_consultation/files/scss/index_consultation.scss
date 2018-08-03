@@ -1,0 +1,104 @@
+.request_consultaion {
+    padding: 90px 0px 65px 90px;
+
+      @media (max-width: 767px) {
+          padding: 45px 15px;
+      }
+
+      .section_title {
+          color: #222;
+          font-size: 34px;
+          margin-bottom: 60px;
+          font-weight: 600;
+          position: relative;
+      
+          &::after {
+              width: 35px;
+          position: absolute;
+          height: 2px;
+          background: #5093e6;
+          content: '';
+          bottom: 6px;
+          margin-left: 14px;
+          }
+      
+          @media (max-width: 991px) {
+              font-size: 30px;
+              margin-bottom: 45px;
+          }
+      }
+  
+  .consultation_form {
+      .input_row {
+      }
+      .input_div {
+          margin-bottom: 20px;
+          input {
+              width: 100%;
+              background: #fff;
+              border: 0px;
+              padding: 12px 20px;
+              font-size: 15px;
+              color: #b0afaf;
+              border-radius: 0px;
+              resize: none;
+              box-shadow: 0px 0px 0px;
+              height: 45px;
+          }
+
+          select {
+                  background: #fff;
+                  border: 0px;
+                  padding: 12px 20px;
+                  font-size: 15px;
+                  color: #b0afaf;
+                  border-radius: 0px;
+                  resize: none;
+                  box-shadow: 0px 0px 0px;
+                  height: 45px;
+                  width: 100%;
+
+                  background: url('index_awards_and_consultation/files/images/select_arrow_1.jpg') no-repeat center right #fff;
+                  -webkit-appearance: none;
+                  -moz-appearance: none;
+                  appearance: none;
+          }
+
+          textarea {
+              background: #fff;
+              border: 0px;
+              padding: 12px 20px;
+              font-size: 15px;
+              color: #b0afaf;
+              border-radius: 0px;
+              resize: none;
+              box-shadow: 0px 0px 0px;
+              min-height: 110px;
+              width: 100%;
+          }
+
+          .submit_button {
+              background-color:  #5db5ff;
+              color: #fff;
+              float: left;
+              font-weight: 600;
+              font-size: 15px;
+              text-transform: uppercase;
+              //width: 175px;
+              border-radius: 4px;
+              text-align: center;
+              line-height: 44px;
+              padding: 0px 15px;
+              letter-spacing: 0.5px;
+              text-align: left;
+              border: none;
+              outline: none;
+
+              i {
+                  margin-left: 5px;
+                  font-size: 20px;
+              }
+          }
+      }
+  }
+}

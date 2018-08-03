@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,8BAA+B;EAC3B,OAAO,EAAE,GAAG",
+"sources": ["../scss/index_awards_and_consultation.scss"],
+"names": [],
+"file": "index_awards_and_consultation.css"
+}

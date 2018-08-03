@@ -24,10 +24,28 @@
     <div class="container-fluid">
         <!-- START OF MAIN ROW -->
         <div class="row">
+            <!-- Header -->
+            <?php include('header/header.php'); ?>
+            <!-- Header -->
 
             <!-- Carousel -->
             <?php include('carousel/carousel.php'); ?>
             <!-- Carousel -->
+
+            <!-- Our Team -->
+            <?php 
+                include('our_team/our_team.php'); 
+                echo '<style>#our_team {background: #fff;}</style>';
+            ?>
+            <!-- Our Team -->   
+
+            <!-- Clients slider -->
+            <?php include('about/clients.php'); ?>
+            <!-- Clients slider -->   
+
+            <!-- Awards and Request a Free Consultation -->
+            <?php include('index_awards_and_consultation/index_awards_and_consultation.php'); ?>
+            <!-- awards and Request a Free Consultation --> 
             
             <!-- Contact Us Band -->
             <?php include('contact_us_band/contact_us_band.php'); ?>

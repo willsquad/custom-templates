@@ -1,0 +1,58 @@
+.award_bg_lhs {
+  background: url("index_awards_and_consultation/files/images/awardsection_bg.jpg") no-repeat;
+  padding: 90px 45px 45px;
+  background-size: cover;
+}
+.award_bg_lhs h3 {
+  font-size: 35px;
+  color: #fff;
+  line-height: 46px;
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .award_bg_lhs h3 {
+    font-size: 30px;
+  }
+}
+.award_bg_lhs h3 span {
+  color: #F3C71E;
+}
+.award_bg_lhs h4 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  line-height: 30px;
+}
+.award_bg_lhs p {
+  color: #FFFFFF;
+  opacity: .56;
+  margin: 40px 0px;
+}
+.award_bg_lhs .work_with_us_button {
+  color: #222;
+  border: 1px solid #E5BB34;
+  background: #E5BB34;
+  color: #fff;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  width: auto;
+  line-height: 1;
+  padding: 17px 39px;
+  text-transform: capitalize;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+.award_bg_lhs .work_with_us_button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/*# sourceMappingURL=index_awards.css.map */
