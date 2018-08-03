@@ -24,8 +24,8 @@
     <div class="container-fluid">
         <!-- START OF MAIN ROW -->
         <div class="row">
-            <!-- Header -->
-            <?php include('header/header.php'); ?>
+            <!-- Header --
+            < ?php include('header/header.php'); ?>
             <!-- Header -->
 
             <!-- Carousel -->
@@ -34,8 +34,7 @@
 
             <!-- Our Team -->
             <?php 
-                include('our_team/our_team.php'); 
-                echo '<style>#our_team {background: #fff;}</style>';
+                include('latest_news/latest_news.php'); 
             ?>
             <!-- Our Team -->   
 
