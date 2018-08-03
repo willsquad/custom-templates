@@ -1,5 +1,8 @@
 <style>
     <?php include('files/css/testimonials.css'); ?>
+    .testimonial_div > .section_title {
+        display: none;
+    }
 </style>
 
 <div id="testimonials_content" class="col-12">
