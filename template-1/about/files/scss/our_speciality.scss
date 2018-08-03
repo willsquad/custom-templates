@@ -1,0 +1,82 @@
+/**** Our Projects  ****/
+#our_speciality {
+    background: url('about/files/images/speciality_bg.jpg') no-repeat center top;
+    background-size: cover;
+    padding: 100px 0px 100px;
+
+    @media (max-width: 991px) {
+        padding: 75px 0px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 50px 0px;
+    }
+
+    .section_title {
+        font-size: 24px;
+        font-weight: 400!important;
+        color: #265491;
+        font-style: italic;
+        position: relative;
+    
+        &::after {
+            width: 35px;
+        position: absolute;
+        height: 2px;
+        background: #5093e6;
+        content: '';
+        bottom: 6px;
+        margin-left: 14px;
+        }
+    
+        @media (max-width: 991px) {
+            font-size: 24px;
+        }
+    }
+
+    h4 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 20px;
+        color: #242424;
+        font-weight: 600;
+    }
+
+    p {
+        margin-bottom: 25px;
+    }
+
+    .our_speciality_rhs {
+
+        @media (max-width: 991px) {
+            margin-top: 30px;
+        }
+
+        .stats {
+            width: 49%;
+            display: inline-block;
+            margin-bottom: 45px;
+            .number {
+                font-size: 60px;
+                color: #242424;
+                width: 100%;
+                float: left;
+                line-height: 67px;
+                @media (max-width: 991px) {
+                    font-size: 45px;
+                }
+            }
+
+            .text {
+                font-size: 18px;
+                color: #5093e6;
+                font-style: italic;
+
+                @media (max-width: 991px) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+}
