@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oBAAqB;EACjB,gBAAgB,EAAE,IAAI;EACtB,OAAO,EAAE,eAAe;;AAExB,yBAA0B;EAJ9B,oBAAqB;IAKb,OAAO,EAAE,QAAQ;;;AAGrB,yBAA0B;EAR9B,oBAAqB;IASb,OAAO,EAAE,QAAQ",
+"sources": ["../scss/index_our_solutions.scss"],
+"names": [],
+"file": "index_our_solutions.css"
+}
