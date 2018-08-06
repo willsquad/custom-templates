@@ -32,6 +32,14 @@
             <?php include('carousel/carousel.php'); ?>
             <!-- Carousel -->
 
+            <!-- Our Projects -->
+            <?php include('our_projects/our_projects.php'); ?>
+            <!-- Our Projects -->     
+
+            <!-- Our core values & About us -->
+            <?php include('values_and_about/values_and_about.php'); ?>
+            <!-- Our core values & About us -->
+
             <!-- Our Team -->
             <?php 
                 include('latest_news/latest_news.php'); 
