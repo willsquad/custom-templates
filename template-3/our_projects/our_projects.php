@@ -151,6 +151,3 @@
 
 </div>
 
-<script>
-    <?php //include('files/js/our_projects.js'); ?>
-</script>

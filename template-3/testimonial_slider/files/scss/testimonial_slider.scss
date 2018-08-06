@@ -3,4 +3,112 @@
     text-align: center;
     padding: 50px 0px 60px;
     background-size: cover;
+
+    .testimonial_max_width {
+        position: relative;
+    }
+
+    .testimonial_single_slider_container {
+        overflow: hidden;
+        position: relative;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .slide {
+        outline: none;
+
+        .testimonial_img {
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            font-style: italic;
+            font-family: "open sans";
+            line-height: 30px;
+            margin: 40px 0px 30px;
+            font-weight: normal;
+            color: #fff;
+            font-weight: 400;
+
+            &.author_p {
+                color: #d5b157;
+                margin: 0px;
+                font-weight: 400;
+            }
+        }
+
+    }
+
+    .slick-slide {
+            //max-height: 320px;
+        }
+
+        .slick-slide img {
+            //width: 100%;
+            max-height: 320px;
+        }
+
+        .prev-slide-testimonial {
+            position: absolute;
+            left: 15px;
+            top: 45%;
+            user-select: none;
+
+            @media (max-width: 767px) {
+                left: 10px;
+            }
+        }
+
+        .next-slide-testimonial {
+            position: absolute;
+            right: 15px;
+            top: 45%;
+            user-select: none;
+
+            @media (max-width: 767px) {
+                right: 10px;
+            }
+        }
+
+        i.arrow_left {
+            cursor: pointer;
+            font-size: 25px;
+            color: #fff;
+            border: 2px solid #fff;
+            transition: all 0.3s ease;
+            padding: 8px;
+
+            @media (max-width: 767px) {
+                font-size: 20px;
+                padding: 5px;
+            }
+
+            &:hover {
+                color: #fff;
+                border: 2px solid #fff;
+            }
+        }
+
+        i.arrow_right {
+            cursor: pointer;
+            font-size: 25px;
+            color: #fff;
+            border: 2px solid #fff;
+            transition: all 0.3s ease;
+            padding: 8px;
+
+            @media (max-width: 767px) {
+                font-size: 20px;
+                padding: 5px;
+            }
+            
+            &:hover {
+                color: #fff;
+                border: 2px solid #fff;
+            }
+        }
+
+    /* Slick slider */
 }

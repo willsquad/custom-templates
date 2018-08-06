@@ -3,6 +3,98 @@
   text-align: center;
   padding: 50px 0px 60px;
   background-size: cover;
+  /* Slick slider */
+}
+#testimonial_slider .testimonial_max_width {
+  position: relative;
+}
+#testimonial_slider .testimonial_single_slider_container {
+  overflow: hidden;
+  position: relative;
+  max-width: 80%;
+  margin: 0 auto;
+}
+#testimonial_slider .slide {
+  outline: none;
+}
+#testimonial_slider .slide .testimonial_img {
+  text-align: center;
+}
+#testimonial_slider .slide p {
+  font-size: 18px;
+  font-style: italic;
+  font-family: "open sans";
+  line-height: 30px;
+  margin: 40px 0px 30px;
+  font-weight: normal;
+  color: #fff;
+  font-weight: 400;
+}
+#testimonial_slider .slide p.author_p {
+  color: #d5b157;
+  margin: 0px;
+  font-weight: 400;
+}
+#testimonial_slider .slick-slide img {
+  max-height: 320px;
+}
+#testimonial_slider .prev-slide-testimonial {
+  position: absolute;
+  left: 15px;
+  top: 45%;
+  user-select: none;
+}
+@media (max-width: 767px) {
+  #testimonial_slider .prev-slide-testimonial {
+    left: 10px;
+  }
+}
+#testimonial_slider .next-slide-testimonial {
+  position: absolute;
+  right: 15px;
+  top: 45%;
+  user-select: none;
+}
+@media (max-width: 767px) {
+  #testimonial_slider .next-slide-testimonial {
+    right: 10px;
+  }
+}
+#testimonial_slider i.arrow_left {
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+  padding: 8px;
+}
+@media (max-width: 767px) {
+  #testimonial_slider i.arrow_left {
+    font-size: 20px;
+    padding: 5px;
+  }
+}
+#testimonial_slider i.arrow_left:hover {
+  color: #fff;
+  border: 2px solid #fff;
+}
+#testimonial_slider i.arrow_right {
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+  padding: 8px;
+}
+@media (max-width: 767px) {
+  #testimonial_slider i.arrow_right {
+    font-size: 20px;
+    padding: 5px;
+  }
+}
+#testimonial_slider i.arrow_right:hover {
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 /*# sourceMappingURL=testimonial_slider.css.map */
