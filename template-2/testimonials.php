@@ -30,7 +30,9 @@
         <!-- Banner -->
 
         <!-- Testimonials Content -->
-        <?php include('about/testimonials_content.php'); ?>
+        <?php 
+            include('about/testimonials_content.php'); 
+        ?>
         <!-- Testimonials Content -->
 
        <!-- Contact Us Band -->

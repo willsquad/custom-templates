@@ -15,6 +15,9 @@
 #testimonials_content .testimonial_row {
   margin-bottom: 60px;
 }
+#testimonials_content .section_title {
+  display: none;
+}
 #testimonials_content .divider_container {
   display: flex;
   align-items: center;

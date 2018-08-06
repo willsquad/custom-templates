@@ -18,7 +18,6 @@
         <?php include('testimonial_div.php'); ?>
         <!-- Testimonial Row -->
 
-
         <!-- Testimonial Row -->
         <?php include('testimonial_div.php'); ?>
         <!-- Testimonial Row -->
