@@ -1,9 +1,10 @@
 /* Navigation */
 .navigation {
   height: 85px;
-  background-color: transparent;
-  color: #FFFFFF;
+  background-color: #fff;
+  color: #999;
   border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+  background: url("header/files/images/hdr_btm_bg.jpg");
 }
 .navigation__content__lhs .logo {
   font-size: 26px;
@@ -12,7 +13,7 @@
 }
 .navigation__content__lhs .logo a {
   text-decoration: none;
-  color: #fff;
+  color: #333;
 }
 @media (max-width: 991px) {
   .navigation__content__lhs {
@@ -47,11 +48,11 @@
 }
 .navigation__content__rhs__menu > li > a {
   font-family: 'Poppins';
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #333;
   letter-spacing: 0;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin: 0 15px;
   padding: 5px 0px;
   text-decoration: none;
@@ -60,7 +61,7 @@
   display: block;
 }
 .navigation__content__rhs__menu > li > a:hover {
-  border-bottom: 2px solid #f8d24b;
+  color: #98740f;
 }
 @media (max-width: 991px) {
   .navigation__content__rhs__menu > li > a {
@@ -179,14 +180,14 @@
   border-bottom: none;
 }
 .navigation__content__rhs__search {
-  border-left: 1px solid rgba(255, 255, 255, 0.34);
+  border-left: 1px solid #999;
   margin-left: 10px;
   padding-left: 20px;
   cursor: pointer;
   user-select: none;
 }
 .navigation__content__rhs__search i {
-  color: rgba(255, 255, 255, 0.6);
+  color: #666;
   font-size: 22px;
 }
 @media (max-width: 991px) {
@@ -204,13 +205,13 @@
   cursor: pointer;
 }
 .navigation__content .nav_menu i {
-  color: #f8d24b;
+  color: #144F74;
   font-size: 32px;
   font-weight: bold;
 }
 .navigation.sticky_header {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: #fff;
 }
 
 /* Navigation */
