@@ -32,6 +32,10 @@
             <?php include('carousel/carousel.php'); ?>
             <!-- Carousel -->
 
+            <!-- About Us Hover scaling -->
+            <?php include('index_about_hover/index_about_hover.php'); ?>
+            <!-- About Us Hover scaling -->
+
             <!-- Our Projects -->
             <?php include('our_projects/our_projects.php'); ?>
             <!-- Our Projects -->     

@@ -1,0 +1,42 @@
+/**** Our Projects  ****/
+#index_about_hover .about_hover_div {
+  padding: 80px 52px 86px;
+  transition: all 0.3s ease;
+}
+#index_about_hover .about_hover_div h4 {
+  font-size: 20px;
+  color: #242424;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+#index_about_hover .about_hover_div p {
+  color: #000;
+  line-height: 22px;
+}
+#index_about_hover .about_hover_div:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+  z-index: 99999;
+}
+#index_about_hover .about_left {
+  background: url("index_about_hover/files/images/yellow_lst_bg.jpg") no-repeat;
+  background-size: cover;
+}
+#index_about_hover .about_middle {
+  background: url("index_about_hover/files/images/blue_lst_bg.jpg") no-repeat;
+  background-size: cover;
+}
+#index_about_hover .about_middle h4 {
+  color: #debc60;
+}
+#index_about_hover .about_middle p {
+  color: #797979;
+}
+#index_about_hover .about_right {
+  background: url("index_about_hover/files/images/lgtblue_lst_bg.jpg") no-repeat;
+  background-size: cover;
+}
+#index_about_hover .about_right h4, #index_about_hover .about_right p {
+  color: #fff;
+}
+
+/*# sourceMappingURL=index_about_hover.css.map */
