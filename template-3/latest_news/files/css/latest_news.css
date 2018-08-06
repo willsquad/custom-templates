@@ -1,15 +1,15 @@
 #latest_news {
   background-color: #fff;
-  padding: 100px 0px;
+  padding: 100px 0px 40px;
 }
 @media (max-width: 991px) {
   #latest_news {
-    padding: 75px 0px;
+    padding: 75px 0px 30px;
   }
 }
 @media (max-width: 767px) {
   #latest_news {
-    padding: 50px 0px;
+    padding: 50px 0px 20px;
   }
 }
 #latest_news .section_title {
@@ -34,7 +34,7 @@
   }
 }
 #latest_news .news_div {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 #latest_news .news_div .image_div {
   margin-bottom: 25px;

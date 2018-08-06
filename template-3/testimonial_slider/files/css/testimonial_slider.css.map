@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,mBAAoB;EAChB,UAAU,EAAE,kEAAkE;EAC9E,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,aAAa;EACtB,eAAe,EAAE,KAAK",
+"sources": ["../scss/testimonial_slider.scss"],
+"names": [],
+"file": "testimonial_slider.css"
+}

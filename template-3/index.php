@@ -40,10 +40,12 @@
             <?php include('values_and_about/values_and_about.php'); ?>
             <!-- Our core values & About us -->
 
+            <!-- Testimonial Slider -->
+            <?php include('testimonial_slider/testimonial_slider.php'); ?>
+            <!-- Testimonial Slider -->   
+
             <!-- Our Team -->
-            <?php 
-                include('latest_news/latest_news.php'); 
-            ?>
+            <?php include('latest_news/latest_news.php'); ?>
             <!-- Our Team -->   
 
             <!-- Clients slider -->

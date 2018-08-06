@@ -1,13 +1,13 @@
 #latest_news {
     background-color: #fff;
-    padding: 100px 0px;
+    padding: 100px 0px 40px;
 
     @media (max-width: 991px) {
-        padding: 75px 0px;
+        padding: 75px 0px 30px;
     }
 
     @media (max-width: 767px) {
-        padding: 50px 0px;
+        padding: 50px 0px 20px;;
     }
 
     .section_title {
@@ -33,7 +33,7 @@
     }
 
     .news_div {
-        margin-bottom: 30px;
+        margin-bottom: 60px;
         .image_div {
             margin-bottom: 25px;
             img {
