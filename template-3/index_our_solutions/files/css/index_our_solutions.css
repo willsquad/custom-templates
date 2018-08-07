@@ -1,16 +1,112 @@
 #index_our_solutions {
   background-color: #fff;
-  padding: 100px 0px 100px;
+  padding: 100px 15px 100px;
 }
 @media (max-width: 991px) {
   #index_our_solutions {
-    padding: 75px 0px;
+    padding: 75px 15px;
   }
 }
 @media (max-width: 767px) {
   #index_our_solutions {
-    padding: 50px 0px;
+    padding: 50px 15px;
   }
+}
+#index_our_solutions .heading_container h3 {
+  font-size: 30px;
+  color: #1c2837;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+#index_our_solutions .heading_container p {
+  color: #797979;
+}
+#index_our_solutions .services_divs_container {
+  margin-top: 60px;
+}
+#index_our_solutions .services_div {
+  text-align: center;
+  padding: 40px 30px 47px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease;
+}
+@media (min-width: 992px) {
+  #index_our_solutions .services_div:nth-child(3) {
+    border-right: 0px;
+  }
+  #index_our_solutions .services_div:nth-child(6) {
+    border-right: 0px;
+  }
+  #index_our_solutions .services_div:nth-child(4), #index_our_solutions .services_div:nth-child(5), #index_our_solutions .services_div:nth-child(6) {
+    border-bottom: 0px;
+  }
+}
+@media (max-width: 991px) {
+  #index_our_solutions .services_div:nth-child(even) {
+    border-right: 0px;
+  }
+  #index_our_solutions .services_div:nth-child(5), #index_our_solutions .services_div:nth-child(6) {
+    border-bottom: 0px;
+  }
+}
+@media (max-width: 767px) {
+  #index_our_solutions .services_div {
+    border-right: 0px;
+  }
+  #index_our_solutions .services_div:nth-child(6) {
+    border-bottom: 0px;
+  }
+}
+#index_our_solutions .services_div .img {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+#index_our_solutions .services_div .img.service_img {
+  background: url("index_our_solutions/files/images/agriculture_icon1.png") no-repeat 0px 0px;
+}
+#index_our_solutions .services_div:hover {
+  background-color: #172738;
+}
+#index_our_solutions .services_div:hover .img.service_img {
+  background: url("index_our_solutions/files/images/agriculture_icon1_hover.png") no-repeat 0px 0px;
+}
+#index_our_solutions .services_div:hover h4 > a {
+  color: #f2cd69;
+}
+#index_our_solutions .services_div:hover p {
+  color: #a0a0a0;
+}
+#index_our_solutions .services_div:hover .read_more a {
+  text-decoration: underline;
+  color: #2488e6;
+}
+#index_our_solutions .services_div h4 {
+  margin: 23px 0px 9px;
+  color: #242424;
+  font-size: 20px;
+  font-weight: 600;
+}
+#index_our_solutions .services_div h4 a {
+  color: #242424;
+  text-decoration: none;
+}
+#index_our_solutions .services_div p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #797979;
+}
+#index_our_solutions .services_div .read_more a {
+  width: 100%;
+  letter-spacing: .40px;
+  text-transform: uppercase;
+  float: left;
+  font-size: 12px;
+  color: #2488e6;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=index_our_solutions.css.map */
