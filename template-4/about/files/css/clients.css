@@ -1,0 +1,22 @@
+/* About page client Slider */
+#clients_slider {
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+@media (max-width: 991px) {
+  #clients_slider {
+    padding-bottom: 75px;
+  }
+}
+@media (max-width: 767px) {
+  #clients_slider {
+    padding-bottom: 50px;
+  }
+}
+#clients_slider .client {
+  outline: none;
+}
+
+/* About page client Slider */
+
+/*# sourceMappingURL=clients.css.map */

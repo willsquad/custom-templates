@@ -1,0 +1,45 @@
+@import 'base/variables';
+@import 'base/bootstrap_variables';
+@import 'mixins/breakpoints';
+
+body {
+    background-color: #F7F7F7; //overflow-y: hidden;
+    font-family: "open sans";
+    font-size: 16px;
+}
+
+input {
+    font-family: "open sans";
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', serif;
+    /* letter-spacing: .80px; */
+    margin: 0px;
+    padding: 0px;
+    font-weight: 700;
+}
+
+.max_width {
+    width: 100%;
+    max-width: $max_width;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #797979;
+    letter-spacing: .40px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 26px;
+}

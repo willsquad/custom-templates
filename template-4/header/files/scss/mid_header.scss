@@ -1,0 +1,44 @@
+.mid_header {
+    background-color: #fff;
+    padding: 25px 15px 25px;
+    border-bottom: 1px solid #092c4a;
+    position: relative;
+
+    &__content {
+        &__lhs {
+            .logo {
+                color: #0A1F30;
+                font-weight: 700;
+                font-size: 30px;
+            }
+        }
+
+        &__rhs {
+            .info_div {
+                color: #5c778e;
+                padding-left: 45px;
+
+                p {
+                    font-size: 15px;
+                    @media (max-width: 767px) {
+                        font-size: 14px;
+                    }
+                }
+                
+            }
+            .search_div {
+                padding-left: 45px;
+
+                input {
+                    padding: 10px;
+                    position: relative;
+                    background-color: #f9f9f9;
+                    border: 1px solid #dedede;
+                    width: 250px;
+                    color: #666;
+                    outline: none;
+                }
+            }
+        }
+    }
+}

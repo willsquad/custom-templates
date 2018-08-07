@@ -1,0 +1,45 @@
+/* Top Bar */
+.top_bar {
+    background-color: #071726;
+    height: 50px;
+    border-bottom: 1px solid rgba(255,255,255,.17);
+
+    &__content {
+        color: #F8D24B;
+
+        &__lhs {
+            font-size: 14px;
+            font-family: 'Open Sans';
+            letter-spacing: .03em;
+            margin: 0;
+            color: #A48C4F;
+
+            span {
+                padding-right: 22px;
+
+                i {
+                    font-size: 20px;
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        &__rhs {
+            font-family: 'Poppins';
+            font-size: 15px;
+            letter-spacing: .02em;
+            position: relative;
+
+            span {
+                padding-left: 22px;
+
+                i {
+                    font-size: 15px;
+                    margin-right: 5px;
+                    color: #A48C4F;
+                }
+            }
+        }
+    }
+}
+/* Top Bar */
