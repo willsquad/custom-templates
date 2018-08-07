@@ -2,7 +2,7 @@
     <?php include("files/css/index_consultation.css"); ?>
 </style>
 
-<div class="request_consultaion col-12 col-md-7">
+<div class="request_consultaion col-12 col-lg-7">
     <div class="">
         <h2 class="section_title">Request a Free Consultation</h2>
 

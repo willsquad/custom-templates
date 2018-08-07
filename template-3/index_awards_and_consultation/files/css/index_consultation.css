@@ -1,9 +1,9 @@
 .request_consultaion {
-  padding: 90px 0px 65px 90px;
+  padding: 90px 65px 65px 90px;
 }
 @media (max-width: 767px) {
   .request_consultaion {
-    padding: 45px 15px;
+    padding: 60px 30px;
   }
 }
 .request_consultaion .section_title {

@@ -3,6 +3,11 @@
   padding: 90px 45px 45px;
   background-size: cover;
 }
+@media (max-width: 767px) {
+  .award_bg_lhs {
+    padding: 60px 30px;
+  }
+}
 .award_bg_lhs h3 {
   font-size: 35px;
   color: #fff;

@@ -3,7 +3,7 @@
 </style>
 
 <div id="index_awards_and_consultation" class="col-12">
-    <div class="row max_width">
+    <div class="row">
 
         <!-- Index Awards -->
         <?php include('index_awards.php'); ?>

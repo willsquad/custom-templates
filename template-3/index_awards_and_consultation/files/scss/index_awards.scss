@@ -2,6 +2,10 @@
     background: url("index_awards_and_consultation/files/images/awardsection_bg.jpg") no-repeat;
     padding: 90px 45px 45px;
     background-size: cover;
+
+    @media (max-width: 767px) {
+        padding: 60px 30px;
+    }
   
     h3 {
         font-size: 35px;
