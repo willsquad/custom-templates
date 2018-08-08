@@ -43,6 +43,10 @@
             <!-- What we offer slider -->
             <?php include('what_we_offer_slider/what_we_offer_slider.php'); ?>
             <!-- What we offer slider --> 
+
+            <!-- Our Projects -->
+                <?php include('our_projects/our_projects.php'); ?>
+            <!-- Our Projects -->
         
             <!-- Our core values & About us -->
             <?php include('values_and_about/values_and_about.php'); ?>

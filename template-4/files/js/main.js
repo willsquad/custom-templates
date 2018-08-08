@@ -11,6 +11,7 @@ $(document).ready(function(){
             initialSlide: 0,
             slidesToShow: 4,
             slidesToScroll: 1,
+            swipeToSlide: true,
             centerMode: false,
             centerPadding: '20px',
             autoplay: true,
@@ -40,7 +41,53 @@ $(document).ready(function(){
                 }
             ]
         });
-      } else if ($(this).is(".what_we_offer_slider")) {
+      } else if ($(this).is(".projects_gallery_slider_container")) {
+        $(this).slick({
+          prevArrow: false,
+          nextArrow: false,
+          dots:false,
+          initialSlide: 0,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          swipeToSlide: true,
+          centerMode: false,
+          centerPadding: '20px',
+          autoplay: true,
+          autoplaySpeed: 2000,
+          responsive: [
+              {
+              breakpoint: 1400,
+              settings: {
+                  slidesToShow:3,
+                  slidesToScroll: 1,
+                  infinite: true
+              }
+              },
+              {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow:2,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+              },
+              {
+              breakpoint: 1000,
+              settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1
+              }
+              },
+              {
+              breakpoint: 850,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+              }
+              }
+          ]
+      });
+    } else if ($(this).is(".what_we_offer_slider")) {
         $(this).slick({
           prevArrow: $('.prev-slide-offer'),
           nextArrow: $('.next-slide-offer'),
