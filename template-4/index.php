@@ -35,8 +35,11 @@
             <!-- Get Quote -->
             <?php include('get_quote/get_quote.php'); ?>
             <!-- Get Quote --> 
-        
 
+            <!-- Index Welcome -->
+            <?php include('index_welcome/index_welcome.php'); ?>
+            <!-- Index Welcome --> 
+        
             <!-- Our core values & About us -->
             <?php include('values_and_about/values_and_about.php'); ?>
             <!-- Our core values & About us --> 

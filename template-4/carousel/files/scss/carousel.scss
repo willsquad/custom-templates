@@ -15,6 +15,7 @@
         img {
             object-fit: cover;
             height: 65vh;
+            width: 100%;
             
             @media (max-width: 767px) {
                 object-position: 65%;

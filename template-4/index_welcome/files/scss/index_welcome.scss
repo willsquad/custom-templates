@@ -1,0 +1,64 @@
+#index_welcome {
+
+    background: #f1f2f4;
+    padding: 100px 0px 0px;
+
+    @media (max-width: 991px) {
+        padding: 75px 0px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 50px 0px;
+    }
+
+    h4 {
+        margin-top: 50px;
+        font-size: 36px;
+        font-family: poppins;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #000;
+
+        @media (max-width: 991px) {
+            font-size: 30px;
+        }
+
+        span {
+            color: #238bd2;
+        }
+    }
+
+    p.welcome_text {
+        font-style: italic;
+        font-size: 16px;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    p.gray_text {
+        color: #8d8d8d;
+        margin-bottom: 30px;
+    }
+
+    .trust_info_div {
+        background: url('index_welcome/files/images/trust_mark_icon.png') no-repeat;
+        padding-left: 52px;
+        margin-bottom: 30px;
+        padding-right: 15px;
+
+        h6 {
+            font-size: 15px;
+            color: #333;
+            font-weight: 700;
+            font-family: 'Open Sans', sans-serif;
+            text-transform: uppercase;
+            margin-bottom: 3px;
+        }
+
+        p {
+            color: #868686;
+            font-style: italic;
+        }
+    }
+}
