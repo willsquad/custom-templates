@@ -14,6 +14,8 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia iste impedit iure tenetur eaque excepturi beatae error, adipisci corporis deleniti distinctio maxime non ratione laboriosam magni harum? Dolores vero tempora.</p>
             </div>
 
+            <a href="#" class="view_all">View All Projects</a>
+
             <!-- <div class="prev-slide-project"><i class="arrow_left material-icons">chevron_left</i></div>
             <div class="next-slide-project"><i class="arrow_right material-icons">chevron_right</i></div> -->
         </div>

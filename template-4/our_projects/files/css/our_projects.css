@@ -21,6 +21,16 @@
 #our_projects .our_projects_row .projects_title_description_row {
   padding: 50px 35px;
 }
+#our_projects .our_projects_row .projects_title_description_row .view_all {
+  font-size: 15px;
+  color: #34c6f2;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0px;
+  margin-top: 45px;
+  display: block;
+}
 #our_projects .section_title {
   color: #fff;
   font-size: 34px;

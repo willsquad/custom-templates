@@ -47,6 +47,12 @@
             <!-- Our Projects -->
                 <?php include('our_projects/our_projects.php'); ?>
             <!-- Our Projects -->
+            <!-- Contact Us Band -->
+            <?php 
+                include('our_projects/contact_us_band/contact_us_band.php'); 
+                echo "<style>#contact_us_band.our_projects_contact_us_band {background: url('our_projects/files/images/stop_sol_bg.jpg');} #contact_us_band.our_projects_contact_us_band .contact_us_band_rhs a{background: #131313; color: #fff;}</style>";
+            ?>
+            <!-- Contact Us Band -->
         
             <!-- Our core values & About us -->
             <?php include('values_and_about/values_and_about.php'); ?>
