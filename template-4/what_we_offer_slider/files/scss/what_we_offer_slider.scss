@@ -1,0 +1,54 @@
+#what_we_offer {
+    background-color: #fff;
+    padding: 100px 0px 50px;
+
+    @media (max-width: 991px) {
+        padding: 75px 0px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 50px 0px;
+    }
+
+    .what_we_offer_slider_title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 35px;
+
+        a {
+           font-family: Alegreya;
+           font-size: 20px;
+           color: #323232;
+           text-decoration: underline;
+           transition: all 0.3s ease;
+
+           &:hover {
+               text-decoration: none;
+               color: #5db5ff;
+           }
+        }
+    }
+
+    .section_title {
+        color: #1c2837;
+        font-size: 34px;
+        margin-bottom: 0px;
+        font-weight: 600;
+        position: relative;
+
+        &::after {
+            width: 35px;
+            position: absolute;
+            height: 2px;
+            background: #5093e6;
+            content: '';
+            bottom: 6px;
+            margin-left: 14px;
+        }
+
+        @media (max-width: 991px) {
+            font-size: 26px;
+        }
+    }
+}

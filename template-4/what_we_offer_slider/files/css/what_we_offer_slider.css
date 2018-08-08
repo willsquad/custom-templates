@@ -1,0 +1,54 @@
+#what_we_offer {
+  background-color: #fff;
+  padding: 100px 0px 50px;
+}
+@media (max-width: 991px) {
+  #what_we_offer {
+    padding: 75px 0px;
+  }
+}
+@media (max-width: 767px) {
+  #what_we_offer {
+    padding: 50px 0px;
+  }
+}
+#what_we_offer .what_we_offer_slider_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+#what_we_offer .what_we_offer_slider_title a {
+  font-family: Alegreya;
+  font-size: 20px;
+  color: #323232;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+#what_we_offer .what_we_offer_slider_title a:hover {
+  text-decoration: none;
+  color: #5db5ff;
+}
+#what_we_offer .section_title {
+  color: #1c2837;
+  font-size: 34px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  position: relative;
+}
+#what_we_offer .section_title::after {
+  width: 35px;
+  position: absolute;
+  height: 2px;
+  background: #5093e6;
+  content: '';
+  bottom: 6px;
+  margin-left: 14px;
+}
+@media (max-width: 991px) {
+  #what_we_offer .section_title {
+    font-size: 26px;
+  }
+}
+
+/*# sourceMappingURL=what_we_offer_slider.css.map */

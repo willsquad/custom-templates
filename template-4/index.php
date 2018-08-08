@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="files/css/bootstrap.css">
         <link rel="stylesheet" href="files/css/animate.min.css">
         <link rel="stylesheet" href="files/css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:400,500,600,700|PT+Serif|Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:400,500,600,700|PT+Serif|Alegreya:700|Material+Icons" rel="stylesheet">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
@@ -39,6 +39,10 @@
             <!-- Index Welcome -->
             <?php include('index_welcome/index_welcome.php'); ?>
             <!-- Index Welcome --> 
+
+            <!-- What we offer slider -->
+            <?php include('what_we_offer_slider/what_we_offer_slider.php'); ?>
+            <!-- What we offer slider --> 
         
             <!-- Our core values & About us -->
             <?php include('values_and_about/values_and_about.php'); ?>
