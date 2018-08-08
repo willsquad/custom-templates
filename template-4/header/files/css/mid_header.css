@@ -4,10 +4,11 @@
   border-bottom: 1px solid #092c4a;
   position: relative;
 }
-.mid_header__content__lhs .logo {
+.mid_header__content__lhs .logo a {
   color: #0A1F30;
   font-weight: 700;
   font-size: 30px;
+  text-decoration: none;
 }
 .mid_header__content__rhs .info_div {
   color: #5c778e;

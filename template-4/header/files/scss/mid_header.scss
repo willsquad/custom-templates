@@ -7,9 +7,12 @@
     &__content {
         &__lhs {
             .logo {
-                color: #0A1F30;
-                font-weight: 700;
-                font-size: 30px;
+                a{
+                    color: #0A1F30;
+                    font-weight: 700;
+                    font-size: 30px;
+                    text-decoration: none;
+                }
             }
         }
 

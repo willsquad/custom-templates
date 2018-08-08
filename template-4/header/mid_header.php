@@ -5,7 +5,7 @@
 <div id="mid_header" class="mid_header col-12 d-flex align-items-center hidden-sm-down">
     <div class="mid_header__content max_width d-flex justify-content-between">
         <div class="mid_header__content__lhs">
-            <div class="logo">LOGO</div>
+            <div class="logo"><a href="index.php">LOGO</a></div>
         </div>
         <div class="mid_header__content__rhs d-flex">
             <div class="info_div">
