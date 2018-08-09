@@ -1,0 +1,38 @@
+#contact {
+    background-color: #fff;
+    padding: 100px 0px 55px;
+
+    @media (max-width: 991px) {
+        padding: 75px 0px 55px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 50px 0px;
+    }
+
+    .section_title {
+        color: #1c2837;
+        font-size: 34px;
+        margin-bottom: 35px;
+        font-weight: 600;
+        position: relative;
+
+        &::after {
+            width: 35px;
+            position: absolute;
+            height: 2px;
+            background: #5093e6;
+            content: '';
+            bottom: 6px;
+            margin-left: 14px;
+        }
+
+        @media (max-width: 991px) {
+            font-size: 26px;
+        }
+    }
+
+    .contact_p {
+        margin-bottom: 45px;
+    }
+}
