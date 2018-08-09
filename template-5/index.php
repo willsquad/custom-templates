@@ -31,6 +31,10 @@
             <?php include('carousel/carousel.php'); ?>
             <!-- Carousel -->
 
+             <!-- About -->
+             <?php include('index_about/index_about.php'); ?>
+            <!-- About -->
+
             <!-- Index Our Services -->
             <?php include('index_our_services/index_our_services.php'); ?>
             <!-- Index Our Services -->

@@ -1,0 +1,35 @@
+#index_about {
+  background-color: #e4e4e4;
+  padding: 100px 0px;
+}
+@media (max-width: 991px) {
+  #index_about {
+    padding: 75px 0px;
+  }
+}
+@media (max-width: 767px) {
+  #index_about {
+    padding: 50px 0px;
+  }
+}
+#index_about .index_about_lhs {
+  margin-bottom: 30px;
+}
+#index_about .index_about_lhs h3 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+#index_about .index_about_lhs p.large {
+  line-height: 26px;
+  font-size: 20px;
+  font-style: normal;
+  color: #2e2e2e;
+  margin-bottom: 30px;
+}
+#index_about .index_about_rhs img {
+  height: 350px;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=index_about.css.map */
