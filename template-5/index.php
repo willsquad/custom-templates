@@ -31,6 +31,9 @@
             <?php include('carousel/carousel.php'); ?>
             <!-- Carousel -->
 
+            <!-- About and Why Choose Us -->
+            <?php include('values_and_about/values_and_about.php'); ?>
+            <!-- About and Why Choose Us -->
 
             <!-- Our Projects -->
             <?php include('our_projects/our_projects.php'); ?>

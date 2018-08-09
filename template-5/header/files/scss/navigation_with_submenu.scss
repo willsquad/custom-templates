@@ -1,9 +1,8 @@
 /* Navigation */
 .navigation {
     height: 85px;
-    background-color: transparent;
+    background-color: #111;
     color: #FFFFFF;
-    border-bottom: 1px solid rgba(255,255,255,.17);
     &__content {
 
         &__lhs {
@@ -62,9 +61,9 @@
                         font-family: 'Poppins';
                         font-weight: 500;
                         font-size: 16px;
-                        color: #FFFFFF;
+                        color: #c9c9c9;
                         letter-spacing: 0;
-                        text-transform: capitalize;
+                        text-transform: uppercase;
                         margin: 0 15px;
                         padding: 5px 0px;
                         text-decoration: none;
@@ -252,7 +251,7 @@
 
     &.sticky_header  {
         position: fixed;
-        background-color: rgba(0, 0, 0, 0.85);
+        background-color: #111;
     }
 }
 /* Navigation */

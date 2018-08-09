@@ -1,0 +1,19 @@
+/**** values_and_about ****/
+#values_and_about {
+  padding: 100px 0px;
+  background-color: #fff;
+}
+@media (max-width: 991px) {
+  #values_and_about {
+    padding: 75px 0px;
+  }
+}
+@media (max-width: 767px) {
+  #values_and_about {
+    padding: 50px 0px;
+  }
+}
+
+/**** values_and_about ****/
+
+/*# sourceMappingURL=values_and_about.css.map */

@@ -4,7 +4,7 @@
     height: 100%;
     opacity: 0;
     visibility: hidden;
-    background: #f8d24b;
+    background: #1f1f1f;
     position: fixed;
     top: 0;
     left: 0;
@@ -20,9 +20,9 @@
         width: 23px;
         height: 20px;
         position: absolute;
-        color: #242424;
+        color: #fff;
         right: 15px;
-        top: 10px;
+        top: 15px;
     }
 
     .search_main_container {
@@ -31,7 +31,7 @@
 
         h4 {
             font-size: 25px;
-            color: #242424;
+            color: #fff;
             margin-bottom: 30px;
         }
 
@@ -44,10 +44,10 @@
         .searchbox_input {
             width: 100%;
             float: left;
-            border-bottom: 1px solid #242424 !important;
+            border-bottom: 1px solid #fff !important;
             border: 0px;
             font-size: 18px;
-            color: #242424;
+            color: #fff;
             background: transparent;
             padding: 5px 0;
             outline: none;

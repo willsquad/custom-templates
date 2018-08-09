@@ -12,7 +12,7 @@
         <div class="slider_container carousel_slider_container row d-flex align-items-center">
 
             <div class="carousel_slide">
-                <img src="carousel/files/images/home_slider_img1.jpg" alt="">
+                <img src="carousel/files/images/banner_img1-3.jpg" alt="">
                 <div class="carousel_text_div max_width">
                     <div class="text">
                         <h1 class="animated slideInUp delay-1s">Lorem ipsum dolor sit amet.</h1>
@@ -26,7 +26,7 @@
 
 
             <div class="carousel_slide">
-                <img src="carousel/files/images/home_slider_img2.jpg" alt="">
+                <img src="carousel/files/images/banner_img2-3.jpg" alt="">
                 <div class="carousel_text_div max_width">
                     <div class="text">
                         <h1 class="animated slideInUp delay-1s" data-animation="animated slideInUp">Lorem ipsum dolor sit amet.</h1>
@@ -40,7 +40,7 @@
 
 
             <div class="carousel_slide">
-                <img src="carousel/files/images/home_slider_img3.jpg" alt="">
+                <img src="carousel/files/images/banner_img3-3.jpg" alt="">
                 <div class="carousel_text_div max_width">
                     <div class="text">
                         <h1 class="animated slideInUp delay-1s">Lorem ipsum dolor sit amet.</h1>

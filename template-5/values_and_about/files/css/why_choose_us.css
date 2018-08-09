@@ -1,0 +1,51 @@
+@media (max-width: 991px) {
+  .why_choose_us {
+    margin-top: 60px;
+  }
+}
+.why_choose_us .section_title {
+  color: #222;
+  font-size: 34px;
+  margin-bottom: 35px;
+  font-weight: 600;
+  position: relative;
+}
+.why_choose_us .section_title::after {
+  width: 35px;
+  position: absolute;
+  height: 2px;
+  background: #5093e6;
+  content: '';
+  bottom: 6px;
+  margin-left: 14px;
+}
+@media (max-width: 991px) {
+  .why_choose_us .section_title {
+    font-size: 30px;
+  }
+}
+.why_choose_us__content__div {
+  margin: 7px 0px 34px;
+  display: flex;
+}
+@media (max-width: 767px) {
+  .why_choose_us__content__div {
+    flex-wrap: wrap;
+  }
+}
+.why_choose_us__content__div .why_choose_us_icon {
+  max-width: 60px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  min-width: 60px;
+}
+.why_choose_us__content__div .why_choose_us_text h6 {
+  font-size: 18px;
+  color: #000;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+/*# sourceMappingURL=why_choose_us.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,4BAA4B;AAC5B,iBAAkB;EACd,OAAO,EAAE,SAAS;EAClB,gBAAgB,EAAE,IAAI;;AAEtB,yBAA0B;EAJ9B,iBAAkB;IAKV,OAAO,EAAE,QAAQ;;;AAGrB,yBAA0B;EAR9B,iBAAkB;IASV,OAAO,EAAE,QAAQ;;;;AAGzB,4BAA4B",
+"sources": ["../scss/values_and_about.scss"],
+"names": [],
+"file": "values_and_about.css"
+}
