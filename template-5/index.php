@@ -31,6 +31,10 @@
             <?php include('carousel/carousel.php'); ?>
             <!-- Carousel -->
 
+            <!-- Index Our Services -->
+            <?php include('index_our_services/index_our_services.php'); ?>
+            <!-- Index Our Services -->
+
             <!-- About and Why Choose Us -->
             <?php include('values_and_about/values_and_about.php'); ?>
             <!-- About and Why Choose Us -->
